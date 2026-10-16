@@ -1,0 +1,116 @@
+{
+  "technical_support": {
+    "category": "technical_support",
+    "consecutiveUneditedApprovals": 3,
+    "isAutonomous": false,
+    "totalProcessed": 3,
+    "totalApprovedUnedited": 3,
+    "totalEdited": 0,
+    "totalRejected": 0,
+    "totalEscalated": 0,
+    "recentHistory": [
+      {
+        "decisionId": "decision_mvb01qpn_p7mk4",
+        "action": "approve",
+        "timestamp": "2026-10-16T13:24:31.740Z"
+      },
+      {
+        "decisionId": "decision_mvb02g8h_vt32f",
+        "action": "approve",
+        "timestamp": "2026-10-16T13:25:04.817Z"
+      },
+      {
+        "decisionId": "decision_mvb2fn35_1i6gn",
+        "action": "approve",
+        "timestamp": "2026-10-16T14:31:19.458Z"
+      }
+    ],
+    "autonomyGrantedAt": null,
+    "autonomyWithdrawnAt": null,
+    "autonomyWithdrawalReason": null
+  },
+  "billing_and_payments": {
+    "category": "billing_and_payments",
+    "consecutiveUneditedApprovals": 0,
+    "isAutonomous": false,
+    "totalProcessed": 0,
+    "totalApprovedUnedited": 0,
+    "totalEdited": 0,
+    "totalRejected": 0,
+    "totalEscalated": 0,
+    "recentHistory": [],
+    "autonomyGrantedAt": null,
+    "autonomyWithdrawnAt": null,
+    "autonomyWithdrawalReason": null
+  },
+  "account_and_login": {
+    "category": "account_and_login",
+    "consecutiveUneditedApprovals": 0,
+    "isAutonomous": false,
+    "totalProcessed": 0,
+    "totalApprovedUnedited": 0,
+    "totalEdited": 0,
+    "totalRejected": 0,
+    "totalEscalated": 0,
+    "recentHistory": [],
+    "autonomyGrantedAt": null,
+    "autonomyWithdrawnAt": null,
+    "autonomyWithdrawalReason": null
+  },
+  "product_configuration": {
+    "category": "product_configuration",
+    "consecutiveUneditedApprovals": 0,
+    "isAutonomous": false,
+    "totalProcessed": 0,
+    "totalApprovedUnedited": 0,
+    "totalEdited": 0,
+    "totalRejected": 0,
+    "totalEscalated": 0,
+    "recentHistory": [],
+    "autonomyGrantedAt": null,
+    "autonomyWithdrawnAt": null,
+    "autonomyWithdrawalReason": null
+  },
+  "feature_request": {
+    "category": "feature_request",
+    "consecutiveUneditedApprovals": 0,
+    "isAutonomous": false,
+    "totalProcessed": 0,
+    "totalApprovedUnedited": 0,
+    "totalEdited": 0,
+    "totalRejected": 0,
+    "totalEscalated": 0,
+    "recentHistory": [],
+    "autonomyGrantedAt": null,
+    "autonomyWithdrawnAt": null,
+    "autonomyWithdrawalReason": null
+  },
+  "complaints": {
+    "category": "complaints",
+    "consecutiveUneditedApprovals": 0,
+    "isAutonomous": false,
+    "totalProcessed": 0,
+    "totalApprovedUnedited": 0,
+    "totalEdited": 0,
+    "totalRejected": 0,
+    "totalEscalated": 0,
+    "recentHistory": [],
+    "autonomyGrantedAt": null,
+    "autonomyWithdrawnAt": null,
+    "autonomyWithdrawalReason": null
+  },
+  "other_or_uncertain": {
+    "category": "other_or_uncertain",
+    "consecutiveUneditedApprovals": 0,
+    "isAutonomous": false,
+    "totalProcessed": 0,
+    "totalApprovedUnedited": 0,
+    "totalEdited": 0,
+    "totalRejected": 0,
+    "totalEscalated": 0,
+    "recentHistory": [],
+    "autonomyGrantedAt": null,
+    "autonomyWithdrawnAt": null,
+    "autonomyWithdrawalReason": null
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "scenario_id": "SCENARIO_A",
+  "project_id": "PRJ-LEGAL-01",
+  "title": "Acme Legal Directory Discovery Meeting",
+  "client_name": "Acme Legal Services LLC",
+  "meeting_type": "initial",
+  "description": "Initial discovery session with clear business problems and standard directory requirements.",
+  "transcript": "Consultant: Thanks for joining today, Sarah. Let's talk about what Acme Legal needs for your directory launch.\nSarah (Client): Thanks! We currently manage our directory of 400 attorneys manually via Google Sheets and PayPal invoices, and it's taking up 20 hours a week. We need a professional portal.\nConsultant: What are your key functional requirements?\nSarah (Client): First, we need lawyer member profiles with headshots, practice areas, state bar license numbers, and office addresses.\nSecond, we must have automated membership subscription tiers with Stripe payment processing—charging $49/month for standard attorneys and $99/month for premium partners.\nThird, visitors need location search with radius filtering, so clients can search by city or zip code and find lawyers within 25 miles.\nFourth, we want modern brand styling matching our corporate deep blue and gold color scheme with our firm logo in the header.\nConsultant: What about administrative controls and reviews?\nSarah (Client): We need member reviews where clients can leave 5-star ratings and written feedback, but our admin team must approve them before they go public.\nConsultant: Any custom integrations or external tools?\nSarah (Client): For now, just Google Maps for the address geocoding and Stripe for payments. We'll provide our Stripe keys and logo assets next Monday.\nConsultant: Understood. We'll prepare a structured scope of work based on Brilliant Directories native capabilities."
+}

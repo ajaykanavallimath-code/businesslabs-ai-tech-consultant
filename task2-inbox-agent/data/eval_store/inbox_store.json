@@ -1,0 +1,2398 @@
+{
+  "emails": {
+    "eval_tech_001": {
+      "id": "eval_tech_001",
+      "senderEmail": "marcus.vance@example.org",
+      "senderName": "Marcus Vance",
+      "subject": "SSL Certificate failing on custom domain directorypro.com",
+      "body": "Hi Support,\n\nOur custom domain directorypro.com points to Brilliant Directories, but visitors are seeing a \"Not Secure\" warning in Chrome. I updated the nameservers 48 hours ago. Can you verify why the automated Let's Encrypt SSL certificate is not generating?\n\nThanks,\nMarcus",
+      "receivedAt": "2026-10-16T14:57:52.775Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Standard SSL and DNS setup troubleshooting answerable via KB guides.",
+        "tags": [
+          "ssl",
+          "dns",
+          "domain"
+        ]
+      },
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvb3dsi4_y7ysh"
+    },
+    "eval_tech_002": {
+      "id": "eval_tech_002",
+      "senderEmail": "elena.rostova@example.com",
+      "senderName": "Elena Rostova",
+      "subject": "Webhook endpoint returning HTTP 500 on member signup",
+      "body": "Hello,\n\nEvery time a member completes registration on our site, our Zapier webhook receives an HTTP 500 internal server error from your webhook dispatcher. Can you check the error logs for webhook ID wh_98234?\n\nRegards,\nElena",
+      "receivedAt": "2026-10-16T14:57:52.785Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Server log inspection requires technical agent verification.",
+        "tags": [
+          "webhook",
+          "api",
+          "http_500"
+        ]
+      },
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvb3dsia_c7chd"
+    },
+    "eval_tech_003": {
+      "id": "eval_tech_003",
+      "senderEmail": "dave.miller@techhub.net",
+      "senderName": "Dave Miller",
+      "subject": "Member search results page displaying 404 error",
+      "body": "Hello Team,\n\nWhen users click on the \"Doctors in Chicago\" search URL (/doctors/chicago), it throws a 404 page not found error. All other cities work fine. Did the permalink structure change?\n\nBest,\nDave",
+      "receivedAt": "2026-10-16T14:57:52.790Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Directory permalink and search category configuration issue.",
+        "tags": [
+          "search",
+          "permalinks",
+          "404"
+        ]
+      },
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvb3dsig_zo5y3"
+    },
+    "eval_tech_004": {
+      "id": "eval_tech_004",
+      "senderEmail": "sarah.connor@cyberdyne.io",
+      "senderName": "Sarah Connor",
+      "subject": "API rate limit exceeded response code 429",
+      "body": "Hi,\n\nWe are syncing our member database via the REST API and started receiving HTTP 429 Too Many Requests. What is the standard rate limit per minute, and how can we request an increase?\n\nThanks,\nSarah",
+      "receivedAt": "2026-10-16T14:57:52.796Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "API rate limit policies documented in Knowledge Brain.",
+        "tags": [
+          "api",
+          "rate_limit",
+          "sync"
+        ]
+      },
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvb3dsim_h0zed"
+    },
+    "eval_tech_005": {
+      "id": "eval_tech_005",
+      "senderEmail": "oliver.twist@citydirectory.co.uk",
+      "senderName": "Oliver Twist",
+      "subject": "Images failing to upload on member profile photo upload",
+      "body": "Hello,\n\nOur members report that uploading JPEG photos larger than 2MB fails silently with no error message. Where do I configure the max upload file size in the admin portal?\n\nThanks,\nOliver",
+      "receivedAt": "2026-10-16T14:57:52.801Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Profile photo upload size configuration in General Settings.",
+        "tags": [
+          "upload",
+          "profile_photo",
+          "settings"
+        ]
+      },
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvb3dsir_8qdd0"
+    },
+    "eval_tech_006": {
+      "id": "eval_tech_006",
+      "senderEmail": "amira.khan@directorybuilders.com",
+      "senderName": "Amira Khan",
+      "subject": "Google Maps API key error: RefererNotAllowedMapError",
+      "body": "Hi Support,\n\nThe map on our homepage shows \"For development purposes only\". In browser console I see RefererNotAllowedMapError. How do I whitelist our domain in Google Cloud Console?\n\nThanks,\nAmira",
+      "receivedAt": "2026-10-16T14:57:52.806Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Google Maps API key domain restriction setup guide.",
+        "tags": [
+          "google_maps",
+          "api_key",
+          "console"
+        ]
+      },
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvb3dsix_liv83"
+    },
+    "eval_tech_007": {
+      "id": "eval_tech_007",
+      "senderEmail": "tom.bradley@sportsnetwork.com",
+      "senderName": "Tom Bradley",
+      "subject": "Database connection intermittent timeouts during peak traffic",
+      "body": "URGENT: Our directory site experienced 3 separate database connection drops today at 2 PM, 4 PM, and 6 PM EST. Over 50,000 visitors were on the site. Is our VPS server hitting connection limits?\n\nTom Bradley",
+      "receivedAt": "2026-10-16T14:57:52.813Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "High-severity infrastructure drop requiring DevOps escalation.",
+        "tags": [
+          "database",
+          "timeout",
+          "infrastructure",
+          "urgent"
+        ]
+      },
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvb3dsj3_m0u6v"
+    },
+    "eval_tech_008": {
+      "id": "eval_tech_008",
+      "senderEmail": "devin.z@startupdirectory.com",
+      "senderName": "Devin Zhao",
+      "subject": "Custom JavaScript snippet breaking checkout form",
+      "body": "Hey,\n\nI pasted a Google Tag Manager tracking script into the Custom Header section and now the credit card checkout button does not fire. Can you tell me which hook or header section is safe for 3rd party scripts?\n\nThanks,\nDevin",
+      "receivedAt": "2026-10-16T14:57:52.818Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Custom header/footer script injection guidelines.",
+        "tags": [
+          "javascript",
+          "gtm",
+          "checkout"
+        ]
+      },
+      "category": "billing_and_payments",
+      "confidence": 0.93,
+      "draftId": "draft_mvb3dsj8_0xna8"
+    },
+    "eval_bill_001": {
+      "id": "eval_bill_001",
+      "senderEmail": "clara.oswald@timeconsulting.com",
+      "senderName": "Clara Oswald",
+      "subject": "Requesting invoice receipt for last month annual renewal",
+      "body": "Hello Billing Department,\n\nOur annual subscription renewed on October 1st for $1,450. Could you please send us the official PDF VAT receipt with our company tax registration number GB123456789?\n\nThank you,\nClara",
+      "receivedAt": "2026-10-16T14:57:52.824Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Tax invoice generation requires billing specialist verification.",
+        "tags": [
+          "invoice",
+          "receipt",
+          "vat"
+        ]
+      },
+      "category": "billing_and_payments",
+      "confidence": 0.93,
+      "draftId": "draft_mvb3dsjf_btlqo"
+    },
+    "eval_bill_002": {
+      "id": "eval_bill_002",
+      "senderEmail": "arthur.dent@galacticguide.org",
+      "senderName": "Arthur Dent",
+      "subject": "How to switch connected Stripe payment gateway account",
+      "body": "Hi,\n\nWe formed a new LLC and need to disconnect our old Stripe account and connect our new Stripe account. What are the exact steps in the admin portal to update the Stripe API keys?\n\nArthur",
+      "receivedAt": "2026-10-16T14:57:52.831Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Standard Stripe Gateway configuration steps in Payment Settings.",
+        "tags": [
+          "stripe",
+          "payment_gateway",
+          "keys"
+        ]
+      },
+      "category": "billing_and_payments",
+      "confidence": 0.93,
+      "draftId": "draft_mvb3dsjl_b0354"
+    },
+    "eval_bill_003": {
+      "id": "eval_bill_003",
+      "senderEmail": "bruce.wayne@wayneenterprises.com",
+      "senderName": "Bruce Wayne",
+      "subject": "Cancellation and refund request for accidental duplicate charge",
+      "body": "Hello,\n\nI noticed our credit card was charged twice on September 15th for the Platinum Add-on package ($299 each). Please refund the duplicate transaction immediately.\n\nBruce",
+      "receivedAt": "2026-10-16T14:57:52.838Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Refund and financial dispute requires human review and validation.",
+        "tags": [
+          "refund",
+          "duplicate_charge",
+          "stripe"
+        ]
+      },
+      "category": "billing_and_payments",
+      "confidence": 0.93,
+      "draftId": "draft_mvb3dsjs_v1olx"
+    },
+    "eval_bill_004": {
+      "id": "eval_bill_004",
+      "senderEmail": "penny.hofstadter@cheesecakefactory.biz",
+      "senderName": "Penny Hofstadter",
+      "subject": "Updating credit card details on file for monthly hosting",
+      "body": "Hi Team,\n\nOur corporate card expired last week. Where in my Brilliant Directories member dashboard do I go to enter our new card details so our service does not get suspended?\n\nBest,\nPenny",
+      "receivedAt": "2026-10-16T14:57:52.845Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Billing information self-service steps in account portal.",
+        "tags": [
+          "credit_card",
+          "billing_update",
+          "subscription"
+        ]
+      },
+      "category": "billing_and_payments",
+      "confidence": 0.93,
+      "draftId": "draft_mvb3dsjz_2t96a"
+    },
+    "eval_bill_005": {
+      "id": "eval_bill_005",
+      "senderEmail": "gordon.gekko@wallstreetcapital.com",
+      "senderName": "Gordon Gekko",
+      "subject": "Inquiry regarding volume discount for 20 directory websites",
+      "body": "To Sales/Billing,\n\nWe are launching a network of 20 regional trade directories. Do you offer an enterprise volume tier or agency bundle discount?\n\nGordon Gekko",
+      "receivedAt": "2026-10-16T14:57:52.850Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Enterprise pricing negotiation requires sales/billing human review.",
+        "tags": [
+          "pricing",
+          "discount",
+          "enterprise"
+        ]
+      },
+      "category": "billing_and_payments",
+      "confidence": 0.93,
+      "draftId": "draft_mvb3dsk4_m77fi"
+    },
+    "eval_bill_006": {
+      "id": "eval_bill_006",
+      "senderEmail": "ned.stark@winterfellsecurity.com",
+      "senderName": "Ned Stark",
+      "subject": "Tax exemption certificate submission for non-profit 501(c)(3)",
+      "body": "Greetings,\n\nOur directory is registered as a 501(c)(3) educational non-profit in the US. Attached is our IRS determination letter. Please update our account so sales tax is not assessed on future invoices.\n\nRegards,\nNed Stark",
+      "receivedAt": "2026-10-16T14:57:52.856Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Legal tax exemption document verification.",
+        "tags": [
+          "tax_exempt",
+          "non_profit",
+          "compliance"
+        ]
+      },
+      "category": "billing_and_payments",
+      "confidence": 0.93,
+      "draftId": "draft_mvb3dska_sulj9"
+    },
+    "eval_bill_007": {
+      "id": "eval_bill_007",
+      "senderEmail": "fiona.gallagher@chicagolocal.org",
+      "senderName": "Fiona Gallagher",
+      "subject": "Failed payment notification email received today",
+      "body": "Help! I got an email saying my payment failed and my directory will be unpublished in 3 days. I checked with my bank and they said it was flagged as international. How do I re-run the payment?\n\nFiona",
+      "receivedAt": "2026-10-16T14:57:52.863Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Payment retry procedures and grace period policies.",
+        "tags": [
+          "failed_payment",
+          "retry",
+          "dunning"
+        ]
+      },
+      "category": "billing_and_payments",
+      "confidence": 0.93,
+      "draftId": "draft_mvb3dskh_rtkua"
+    },
+    "eval_bill_008": {
+      "id": "eval_bill_008",
+      "senderEmail": "walter.white@heisenbergchem.com",
+      "senderName": "Walter White",
+      "subject": "Chargeback dispute filed by member on my directory",
+      "body": "Hello,\n\nA member on my directory filed a credit card chargeback through Stripe. Does Brilliant Directories automatically send evidence to Stripe or do I need to submit the contract?\n\nWalter",
+      "receivedAt": "2026-10-16T14:57:52.868Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Guidance on managing end-user chargebacks in connected Stripe accounts.",
+        "tags": [
+          "chargeback",
+          "stripe",
+          "dispute"
+        ]
+      },
+      "category": "billing_and_payments",
+      "confidence": 0.93,
+      "draftId": "draft_mvb3dskm_8dlh2"
+    },
+    "eval_acc_001": {
+      "id": "eval_acc_001",
+      "senderEmail": "alice.liddell@wonderland.co",
+      "senderName": "Alice Liddell",
+      "subject": "Password reset link not arriving in email inbox",
+      "body": "Hi,\n\nI have clicked \"Forgot Password\" three times on the admin login page (admin.myportal.com), but I have not received the reset email. I checked my spam folder. My account email is alice.liddell@wonderland.co.\n\nThanks,\nAlice",
+      "receivedAt": "2026-10-16T14:57:52.874Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Password reset troubleshooting, spam filter, and default sender verification.",
+        "tags": [
+          "password_reset",
+          "email_deliverability",
+          "login"
+        ]
+      },
+      "category": "account_and_login",
+      "confidence": 0.94,
+      "draftId": "draft_mvb3dskt_fqjd8"
+    },
+    "eval_acc_002": {
+      "id": "eval_acc_002",
+      "senderEmail": "bob.parr@metroville.gov",
+      "senderName": "Bob Parr",
+      "subject": "Locked out of Two-Factor Authentication (2FA) new phone",
+      "body": "Hello Admin Support,\n\nI got a new iPhone and lost my Google Authenticator app codes for my Brilliant Directories master admin account. I cannot log in. Can an admin help me reset my 2FA?\n\nBob",
+      "receivedAt": "2026-10-16T14:57:52.881Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Identity verification required before 2FA reset.",
+        "tags": [
+          "2fa",
+          "security",
+          "lockout"
+        ]
+      },
+      "category": "account_and_login",
+      "confidence": 0.94,
+      "draftId": "draft_mvb3dskz_it1sd"
+    },
+    "eval_acc_003": {
+      "id": "eval_acc_003",
+      "senderEmail": "carol.danvers@marvelous.io",
+      "senderName": "Carol Danvers",
+      "subject": "How to transfer primary account ownership to new webmaster",
+      "body": "Hi Support,\n\nI am leaving the organization next Friday. How do I transfer ownership of our Brilliant Directories license and primary billing email to our new director, monica@marvelous.io?\n\nCarol",
+      "receivedAt": "2026-10-16T14:57:52.887Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Account ownership transfer protocol.",
+        "tags": [
+          "ownership_transfer",
+          "admin",
+          "security"
+        ]
+      },
+      "category": "account_and_login",
+      "confidence": 0.94,
+      "draftId": "draft_mvb3dsl5_85hwb"
+    },
+    "eval_acc_004": {
+      "id": "eval_acc_004",
+      "senderEmail": "dan.humphrey@uppereast.net",
+      "senderName": "Dan Humphrey",
+      "subject": "Adding secondary admin users with restricted permissions",
+      "body": "Hello,\n\nWe want to hire an intern to approve member listings without giving them access to our Stripe settings or billing invoices. Does Brilliant Directories support role-based admin permissions?\n\nDan",
+      "receivedAt": "2026-10-16T14:57:52.894Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Admin role configuration and permissions manager documentation.",
+        "tags": [
+          "admin_roles",
+          "permissions",
+          "sub_accounts"
+        ]
+      },
+      "category": "account_and_login",
+      "confidence": 0.94,
+      "draftId": "draft_mvb3dslc_yvbp0"
+    },
+    "eval_acc_005": {
+      "id": "eval_acc_005",
+      "senderEmail": "eve.polastri@mi6security.uk",
+      "senderName": "Eve Polastri",
+      "subject": "Account locked due to 5 consecutive failed login attempts",
+      "body": "Hello,\n\nMy screen says: \"Account temporarily locked due to excessive failed login attempts. Try again in 30 minutes.\" Is there a way to unblock my IP address immediately?\n\nEve",
+      "receivedAt": "2026-10-16T14:57:52.900Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Admin lock out security policy and IP unblock timer.",
+        "tags": [
+          "account_locked",
+          "security",
+          "failed_attempts"
+        ]
+      },
+      "category": "account_and_login",
+      "confidence": 0.94,
+      "draftId": "draft_mvb3dsli_ivad3"
+    },
+    "eval_acc_006": {
+      "id": "eval_acc_006",
+      "senderEmail": "frank.castle@punisherdefense.com",
+      "senderName": "Frank Castle",
+      "subject": "Single Sign-On (SSO) with Okta integration question",
+      "body": "Hi,\n\nDoes Brilliant Directories support SAML 2.0 or OAuth2 Single Sign-On so our employees can authenticate via our corporate Okta identity provider?\n\nFrank Castle",
+      "receivedAt": "2026-10-16T14:57:52.906Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "SSO and social login capabilities overview from KB.",
+        "tags": [
+          "sso",
+          "okta",
+          "saml",
+          "authentication"
+        ]
+      },
+      "category": "account_and_login",
+      "confidence": 0.94,
+      "draftId": "draft_mvb3dslp_r4sxz"
+    },
+    "eval_acc_007": {
+      "id": "eval_acc_007",
+      "senderEmail": "grace.hopper@nanoseconds.edu",
+      "senderName": "Grace Hopper",
+      "subject": "Changing email address associated with my member account",
+      "body": "Good morning,\n\nI want to update my email address from grace.hopper@nanoseconds.edu to grace@navy.mil. When I try in the profile editor it says \"Email already in use\". How do I resolve this?\n\nGrace",
+      "receivedAt": "2026-10-16T14:57:52.913Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Resolving duplicate email conflict in member database.",
+        "tags": [
+          "email_change",
+          "duplicate_account",
+          "profile"
+        ]
+      },
+      "category": "account_and_login",
+      "confidence": 0.94,
+      "draftId": "draft_mvb3dslv_6ilc1"
+    },
+    "eval_acc_008": {
+      "id": "eval_acc_008",
+      "senderEmail": "harry.potter@hogwarts.ac.uk",
+      "senderName": "Harry Potter",
+      "subject": "Session timing out too quickly in admin portal",
+      "body": "Hello,\n\nI keep getting logged out of the admin panel every 15 minutes of inactivity while editing pages. Where do I extend the admin session timeout duration to 4 hours?\n\nHarry",
+      "receivedAt": "2026-10-16T14:57:52.919Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Admin session duration setting in Advanced Settings.",
+        "tags": [
+          "session_timeout",
+          "admin",
+          "settings"
+        ]
+      },
+      "category": "account_and_login",
+      "confidence": 0.94,
+      "draftId": "draft_mvb3dsm1_b0bct"
+    },
+    "eval_prod_001": {
+      "id": "eval_prod_001",
+      "senderEmail": "ian.malcolm@jurassicpark.org",
+      "senderName": "Ian Malcolm",
+      "subject": "How to add custom dropdown fields to the member signup form",
+      "body": "Hi,\n\nWe need to add a dropdown field called \"Years of Experience\" (1-3, 3-5, 5+ years) to our professional registration form. Which menu in the admin dashboard controls form fields?\n\nDr. Malcolm",
+      "receivedAt": "2026-10-16T14:57:52.926Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Form Manager guide for adding custom dropdown fields.",
+        "tags": [
+          "form_manager",
+          "signup_form",
+          "custom_fields"
+        ]
+      },
+      "category": "product_configuration",
+      "confidence": 0.91,
+      "draftId": "draft_mvb3dsm8_4co80"
+    },
+    "eval_prod_002": {
+      "id": "eval_prod_002",
+      "senderEmail": "judy.hopps@zootopia.gov",
+      "senderName": "Judy Hopps",
+      "subject": "Setting up automated lead routing to local members",
+      "body": "Hello Support,\n\nWe want incoming inquiries submitted via the \"Get Matched\" form to automatically distribute to the top 3 verified members in that specific postal zip code. Where do I configure this lead distribution logic?\n\nOfficer Hopps",
+      "receivedAt": "2026-10-16T14:57:52.932Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Lead distribution and auto-matching configuration.",
+        "tags": [
+          "leads",
+          "lead_routing",
+          "matching"
+        ]
+      },
+      "category": "product_configuration",
+      "confidence": 0.91,
+      "draftId": "draft_mvb3dsme_bboj3"
+    },
+    "eval_prod_003": {
+      "id": "eval_prod_003",
+      "senderEmail": "ken.adams@reginaphalange.com",
+      "senderName": "Ken Adams",
+      "subject": "Customizing the main homepage navigation menu items",
+      "body": "Hi,\n\nHow do I add a new menu item called \"Podcast\" to the main header navigation and make it open an external link in a new tab?\n\nKen",
+      "receivedAt": "2026-10-16T14:57:52.939Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Menu Manager guide for header navigation and external links.",
+        "tags": [
+          "menu_manager",
+          "navigation",
+          "header"
+        ]
+      },
+      "category": "product_configuration",
+      "confidence": 0.91,
+      "draftId": "draft_mvb3dsmn_6guha"
+    },
+    "eval_prod_004": {
+      "id": "eval_prod_004",
+      "senderEmail": "luna.lovegood@quibbler.mag",
+      "senderName": "Luna Lovegood",
+      "subject": "Editing the automated welcome email sent to new members",
+      "body": "Greetings,\n\nWhere can I customize the subject line and text of the automated confirmation email that gets sent when a member registers for a free listing?\n\nLuna",
+      "receivedAt": "2026-10-16T14:57:52.948Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Email Template Manager guide for member signup notifications.",
+        "tags": [
+          "email_templates",
+          "welcome_email",
+          "notifications"
+        ]
+      },
+      "category": "product_configuration",
+      "confidence": 0.91,
+      "draftId": "draft_mvb3dsmu_a2d3w"
+    },
+    "eval_prod_005": {
+      "id": "eval_prod_005",
+      "senderEmail": "morpheus@zionrebels.net",
+      "senderName": "Morpheus",
+      "subject": "Enabling recurring monthly subscriptions on membership plans",
+      "body": "Hello,\n\nCurrently our membership plan charges a one-time fee of $49. How do we configure it so it automatically charges $49 every month until cancelled?\n\nMorpheus",
+      "receivedAt": "2026-10-16T14:57:52.954Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Membership Plans pricing tabs: recurring vs one-time billing.",
+        "tags": [
+          "membership_plans",
+          "recurring_billing",
+          "pricing"
+        ]
+      },
+      "category": "product_configuration",
+      "confidence": 0.91,
+      "draftId": "draft_mvb3dsn1_6pw2k"
+    },
+    "eval_prod_006": {
+      "id": "eval_prod_006",
+      "senderEmail": "natasha.romanoff@avengershq.org",
+      "senderName": "Natasha Romanoff",
+      "subject": "SEO meta tags template for member profile URLs",
+      "body": "Hi,\n\nWe want every member profile to have a dynamic meta title formatted as: \"[First Name] [Last Name] - [Profession] in [City]\". Where in SEO Templates do we define these replacement variables?\n\nNatasha",
+      "receivedAt": "2026-10-16T14:57:52.962Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "SEO Templates Manager dynamic variable syntax.",
+        "tags": [
+          "seo_templates",
+          "meta_tags",
+          "variables"
+        ]
+      },
+      "category": "product_configuration",
+      "confidence": 0.91,
+      "draftId": "draft_mvb3dsn8_8d7xd"
+    },
+    "eval_prod_007": {
+      "id": "eval_prod_007",
+      "senderEmail": "oscar.martinez@dundermifflin.com",
+      "senderName": "Oscar Martinez",
+      "subject": "Hiding member phone numbers behind a login wall",
+      "body": "Hello Support,\n\nTo prevent spam scraping, we want phone numbers and email addresses on member profile pages to be visible ONLY to logged-in members. Non-logged-in visitors should see a \"Log in to view contact details\" button. How do we set this up?\n\nOscar",
+      "receivedAt": "2026-10-16T14:57:52.969Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Member profile visibility settings and contact details gate.",
+        "tags": [
+          "profile_privacy",
+          "login_wall",
+          "members_only"
+        ]
+      },
+      "category": "account_and_login",
+      "confidence": 0.94,
+      "draftId": "draft_mvb3dsnf_i37hq"
+    },
+    "eval_prod_008": {
+      "id": "eval_prod_008",
+      "senderEmail": "padme.amidala@naboocouncil.gov",
+      "senderName": "Padme Amidala",
+      "subject": "Translating website front-end buttons to Spanish and French",
+      "body": "Greetings,\n\nWhere do I edit the text labels for system buttons like \"Search Now\", \"Claim Listing\", and \"Send Message\" to translate our portal for Spanish and French speakers?\n\nSenator Amidala",
+      "receivedAt": "2026-10-16T14:57:52.978Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Text Labels manager guide for multilingual translations.",
+        "tags": [
+          "translations",
+          "text_labels",
+          "multilingual"
+        ]
+      },
+      "category": "product_configuration",
+      "confidence": 0.91,
+      "draftId": "draft_mvb3dsnp_3mnx3"
+    },
+    "eval_feat_001": {
+      "id": "eval_feat_001",
+      "senderEmail": "quinn.fabray@gleeclub.edu",
+      "senderName": "Quinn Fabray",
+      "subject": "Feature Request: Native iOS and Android mobile app wrapper",
+      "body": "Hi Brilliant Directories Team,\n\nDo you have plans to release a native mobile app builder or Flutter wrapper so our members can install our directory directly from the Apple App Store and Google Play Store?\n\nQuinn",
+      "receivedAt": "2026-10-16T14:57:52.986Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Polite intake and documentation of mobile app roadmap/PWA capabilities.",
+        "tags": [
+          "mobile_app",
+          "ios",
+          "android",
+          "roadmap"
+        ]
+      },
+      "category": "feature_request",
+      "confidence": 0.93,
+      "draftId": "draft_mvb3dsnx_30qfi"
+    },
+    "eval_feat_002": {
+      "id": "eval_feat_002",
+      "senderEmail": "ripley.ellen@weyland.corp",
+      "senderName": "Ellen Ripley",
+      "subject": "Request for Cryptocurrency payment integration (Bitcoin / USDC)",
+      "body": "Hello,\n\nMany of our tech freelancers want to pay their monthly directory membership fees using Bitcoin or USDC. Could you add Coinbase Commerce or BTCPay Server to your payment gateway options?\n\nRipley",
+      "receivedAt": "2026-10-16T14:57:52.994Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Cryptocurrency feature request acknowledgment.",
+        "tags": [
+          "crypto",
+          "bitcoin",
+          "payment_gateway"
+        ]
+      },
+      "category": "feature_request",
+      "confidence": 0.93,
+      "draftId": "draft_mvb3dso5_9eh6g"
+    },
+    "eval_feat_003": {
+      "id": "eval_feat_003",
+      "senderEmail": "sam.winchester@huntershq.com",
+      "senderName": "Sam Winchester",
+      "subject": "Feature Suggestion: AI-powered blog post generator inside CMS",
+      "body": "Hey Team,\n\nIt would be amazing if you integrated an AI writing assistant directly inside the Web Page Builder so we can draft localized community guides without switching tabs to ChatGPT.\n\nSam",
+      "receivedAt": "2026-10-16T14:57:53.002Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "AI content builder feature request intake.",
+        "tags": [
+          "ai_writer",
+          "cms",
+          "feature_request"
+        ]
+      },
+      "category": "feature_request",
+      "confidence": 0.93,
+      "draftId": "draft_mvb3dsoc_57346"
+    },
+    "eval_feat_004": {
+      "id": "eval_feat_004",
+      "senderEmail": "tess.ocean@bellagio.org",
+      "senderName": "Tess Ocean",
+      "subject": "WhatsApp direct messaging button on member profile cards",
+      "body": "Hi,\n\nIn our country, 95% of communication is done over WhatsApp. Can you add a direct \"Chat on WhatsApp\" button to member search result cards that pre-populates the member’s phone number?\n\nTess",
+      "receivedAt": "2026-10-16T14:57:53.011Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "WhatsApp integration request with practical workaround guide.",
+        "tags": [
+          "whatsapp",
+          "messaging",
+          "social_buttons"
+        ]
+      },
+      "category": "feature_request",
+      "confidence": 0.93,
+      "draftId": "draft_mvb3dsol_40m36"
+    },
+    "eval_feat_005": {
+      "id": "eval_feat_005",
+      "senderEmail": "umberto.eco@biblioteca.it",
+      "senderName": "Umberto Eco",
+      "subject": "Support for dark mode toggle for front-end visitors",
+      "body": "Hello,\n\nAre there any plans to add an official one-click dark mode toggle theme to the website design settings?\n\nUmberto",
+      "receivedAt": "2026-10-16T14:57:53.018Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Front-end dark mode feature request.",
+        "tags": [
+          "dark_mode",
+          "design",
+          "themes"
+        ]
+      },
+      "category": "feature_request",
+      "confidence": 0.93,
+      "draftId": "draft_mvb3dsos_nfsnt"
+    },
+    "eval_feat_006": {
+      "id": "eval_feat_006",
+      "senderEmail": "victor.frankenstein@genevauniv.ch",
+      "senderName": "Victor Frankenstein",
+      "subject": "Integration with HubSpot CRM for two-way contact syncing",
+      "body": "Dear Team,\n\nWe manage all enterprise sponsors in HubSpot. A native 2-way sync with Brilliant Directories members would save our team 10 hours a week. Is this on your quarterly roadmap?\n\nVictor",
+      "receivedAt": "2026-10-16T14:57:53.027Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "HubSpot CRM sync feature request and current Zapier webhook solution.",
+        "tags": [
+          "hubspot",
+          "crm",
+          "integrations"
+        ]
+      },
+      "category": "feature_request",
+      "confidence": 0.93,
+      "draftId": "draft_mvb3dsp2_47db0"
+    },
+    "eval_feat_007": {
+      "id": "eval_feat_007",
+      "senderEmail": "wanda.maximoff@westview.gov",
+      "senderName": "Wanda Maximoff",
+      "subject": "Digital signature add-on for vendor agreements upon signup",
+      "body": "Hi,\n\nWe require new medical members to sign a HIPAA compliance waiver before their listing is approved. Can BD integrate DocuSign or HelloSign natively into the signup flow?\n\nWanda",
+      "receivedAt": "2026-10-16T14:57:53.035Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "E-signature workflow request.",
+        "tags": [
+          "docusign",
+          "e_sign",
+          "compliance"
+        ]
+      },
+      "category": "other_or_uncertain",
+      "confidence": 0.9,
+      "draftId": "draft_mvb3dsp9_067xj"
+    },
+    "eval_feat_008": {
+      "id": "eval_feat_008",
+      "senderEmail": "xena.warrior@amphipolis.gr",
+      "senderName": "Xena",
+      "subject": "Multi-currency pricing display based on visitor IP geolocation",
+      "body": "Greetings,\n\nWe get traffic from the US, UK, and Eurozone. We would love for the pricing page to display prices in USD, GBP, or EUR automatically depending on the visitor's country.\n\nXena",
+      "receivedAt": "2026-10-16T14:57:53.044Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Multi-currency geolocation feature request.",
+        "tags": [
+          "multi_currency",
+          "geolocation",
+          "pricing"
+        ]
+      },
+      "category": "feature_request",
+      "confidence": 0.93,
+      "draftId": "draft_mvb3dspi_bjg6v"
+    },
+    "eval_comp_001": {
+      "id": "eval_comp_001",
+      "senderEmail": "yvonne.strahovski@buymore.com",
+      "senderName": "Yvonne Strahovski",
+      "subject": "Extremely upset: Our directory went down during Black Friday sale",
+      "body": "I am writing to express my absolute outrage. Our site directory went completely offline for over 90 minutes today right as our annual email newsletter was sent to 40,000 subscribers. We lost thousands in member sales. I want an explanation and compensation for our lost revenue immediately.\n\nYvonne",
+      "receivedAt": "2026-10-16T14:57:53.051Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "High frustration complaint with revenue impact requiring manager review.",
+        "tags": [
+          "downtime",
+          "frustration",
+          "compensation",
+          "complaint"
+        ]
+      },
+      "category": "complaints",
+      "confidence": 0.95,
+      "draftId": "draft_mvb3dspp_tpnav"
+    },
+    "eval_comp_002": {
+      "id": "eval_comp_002",
+      "senderEmail": "zack.morris@baysideschool.edu",
+      "senderName": "Zack Morris",
+      "subject": "Unacceptable 4-day delay on my support ticket #84920",
+      "body": "I submitted ticket #84920 on Monday regarding our payment gateway error and have heard NOTHING back other than an automated confirmation. We pay $199/month for VIP support. Why am I being ignored?\n\nZack",
+      "receivedAt": "2026-10-16T14:57:53.059Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Support SLA escalation complaint.",
+        "tags": [
+          "sla_delay",
+          "vip_support",
+          "complaint"
+        ]
+      },
+      "category": "complaints",
+      "confidence": 0.95,
+      "draftId": "draft_mvb3dspy_fl7tq"
+    },
+    "eval_comp_003": {
+      "id": "eval_comp_003",
+      "senderEmail": "ann.perkins@pawneegov.org",
+      "senderName": "Ann Perkins",
+      "subject": "Charged again after requesting cancellation last month",
+      "body": "Hi,\n\nI emailed your team on September 10th asking to cancel our directory subscription. Today I saw a fresh charge of $95 on our bank statement! This is completely dishonest business practice. Cancel this immediately and refund every penny.\n\nAnn",
+      "receivedAt": "2026-10-16T14:57:53.068Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Billing dispute and cancellation dispute requiring review.",
+        "tags": [
+          "billing_dispute",
+          "refund_demand",
+          "complaint"
+        ]
+      },
+      "category": "complaints",
+      "confidence": 0.95,
+      "draftId": "draft_mvb3dsq7_itzrk"
+    },
+    "eval_comp_004": {
+      "id": "eval_comp_004",
+      "senderEmail": "ben.wyatt@pawneegov.org",
+      "senderName": "Ben Wyatt",
+      "subject": "Software update broke our custom CSS styling across all pages",
+      "body": "Whatever software release you pushed last night completely broke the layout of our search results page and our mobile menu header. Our custom CSS was overwritten. Who authorised a release without backward compatibility testing?\n\nBen Wyatt",
+      "receivedAt": "2026-10-16T14:57:53.078Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Update regression complaint requiring empathetic triage.",
+        "tags": [
+          "css_regression",
+          "software_update",
+          "complaint"
+        ]
+      },
+      "category": "complaints",
+      "confidence": 0.95,
+      "draftId": "draft_mvb3dsqh_p2t8c"
+    },
+    "eval_comp_005": {
+      "id": "eval_comp_005",
+      "senderEmail": "chris.traeger@pawneegov.org",
+      "senderName": "Chris Traeger",
+      "subject": "Spam accounts flooding our member directory despite reCAPTCHA",
+      "body": "Team,\n\nWe woke up to find over 350 fake casino bot accounts registered on our site overnight. We have Google reCAPTCHA v2 turned on! Why is the spam defense so porous? Our real members are complaining.\n\nChris",
+      "receivedAt": "2026-10-16T14:57:53.086Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Spam defense configuration (reCAPTCHA v3 and spam blocker addon) from KB.",
+        "tags": [
+          "spam",
+          "recaptcha",
+          "bots"
+        ]
+      },
+      "category": "complaints",
+      "confidence": 0.95,
+      "draftId": "draft_mvb3dsqo_dwc33"
+    },
+    "eval_comp_006": {
+      "id": "eval_comp_006",
+      "senderEmail": "donna.meagle@pawneegov.org",
+      "senderName": "Donna Meagle",
+      "subject": "Your platform is too complicated for non-technical owners",
+      "body": "I was promised this would be a \"no-code, launch in 24 hours\" platform. Instead I have spent 3 weeks trying to figure out forms, menus, widgets, and shortcodes. The documentation is full of developer jargon. I want someone to call me and walk me through this.\n\nDonna",
+      "receivedAt": "2026-10-16T14:57:53.094Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Frustrated customer requesting onboarding intervention.",
+        "tags": [
+          "onboarding",
+          "usability",
+          "complaint"
+        ]
+      },
+      "category": "complaints",
+      "confidence": 0.95,
+      "draftId": "draft_mvb3dsqx_784lc"
+    },
+    "eval_comp_007": {
+      "id": "eval_comp_007",
+      "senderEmail": "eddie.munson@upsidedown.net",
+      "senderName": "Eddie Munson",
+      "subject": "Listing claim feature allowed an impostor to steal my company listing",
+      "body": "URGENT: A competitor used the \"Claim Listing\" button on my business profile and took over my listing without providing business verification proof! This is a major security flaw. Freeze that profile immediately.\n\nEddie",
+      "receivedAt": "2026-10-16T14:57:53.102Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Listing fraud and security risk requiring immediate escalation.",
+        "tags": [
+          "fraud",
+          "claim_listing",
+          "security_flaw",
+          "escalate"
+        ]
+      },
+      "category": "complaints",
+      "confidence": 0.95,
+      "draftId": "draft_mvb3dsr6_cq85h"
+    },
+    "eval_comp_008": {
+      "id": "eval_comp_008",
+      "senderEmail": "fester.addams@addamsmanor.org",
+      "senderName": "Uncle Fester",
+      "subject": "Threatening legal action if trademarked name is not removed",
+      "body": "To Legal / Customer Relations,\n\nA rogue user on your platform has published defamatory listings using our registered trademark. If this is not taken down within 24 hours, our counsel will file for damages in federal district court.\n\nFester Addams",
+      "receivedAt": "2026-10-16T14:57:53.114Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Legal threat requiring strict escalation protocol.",
+        "tags": [
+          "legal_threat",
+          "dmca",
+          "trademark",
+          "escalate"
+        ]
+      },
+      "category": "complaints",
+      "confidence": 0.95,
+      "draftId": "draft_mvb3dsrg_y143v"
+    },
+    "eval_oth_001": {
+      "id": "eval_oth_001",
+      "senderEmail": "gaston.beauty@villagemarket.fr",
+      "senderName": "Gaston",
+      "subject": "Help",
+      "body": "It does not work. Call me.",
+      "receivedAt": "2026-10-16T14:57:53.122Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Extremely vague/missing information email with zero context.",
+        "tags": [
+          "vague",
+          "missing_details",
+          "ambiguous"
+        ]
+      },
+      "category": "other_or_uncertain",
+      "confidence": 0.6,
+      "draftId": "draft_mvb3dsrp_r7k5w"
+    },
+    "eval_oth_002": {
+      "id": "eval_oth_002",
+      "senderEmail": "homer.simpson@springfieldnuclear.com",
+      "senderName": "Homer Simpson",
+      "subject": "Can I install WordPress WooCommerce plugins onto my BD directory?",
+      "body": "Hey,\n\nI purchased a WordPress plugin called WooCommerce Subscriptions. How do I upload the .zip file into Brilliant Directories so it runs on my site?\n\nHomer",
+      "receivedAt": "2026-10-16T14:57:53.130Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Clarifying architecture difference (BD is a standalone SaaS, not WordPress).",
+        "tags": [
+          "wordpress_plugin",
+          "saas_architecture",
+          "unsupported"
+        ]
+      },
+      "category": "other_or_uncertain",
+      "confidence": 0.9,
+      "draftId": "draft_mvb3dsrx_wjkwg"
+    },
+    "eval_oth_003": {
+      "id": "eval_oth_003",
+      "senderEmail": "indiana.jones@marshall.edu",
+      "senderName": "Indy Jones",
+      "subject": "Partnership proposition for archaeological excavation directory",
+      "body": "Dear Business Development,\n\nI lead an international coalition of academic antiquities registries. We would like to explore a co-marketing or strategic partnership. Who is the best person to speak with?\n\nDr. Jones",
+      "receivedAt": "2026-10-16T14:57:53.138Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Business partnership pitch outside standard support scope.",
+        "tags": [
+          "partnership",
+          "business_dev",
+          "routing"
+        ]
+      },
+      "category": "other_or_uncertain",
+      "confidence": 0.9,
+      "draftId": "draft_mvb3dss6_w1pua"
+    },
+    "eval_oth_004": {
+      "id": "eval_oth_004",
+      "senderEmail": "joker.gotham@arkham.city",
+      "senderName": "Jack Napier",
+      "subject": "Cryptic riddle regarding directory software",
+      "body": "Why so serious about software? If a tree falls in a database and no SQL queries it, does it make a sound? Send bitcoins or your records turn to purple mist.",
+      "receivedAt": "2026-10-16T14:57:53.148Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Spam/threat inquiry requiring escalation or blacklisting.",
+        "tags": [
+          "spam",
+          "nonsense",
+          "security"
+        ]
+      },
+      "category": "other_or_uncertain",
+      "confidence": 0.9,
+      "draftId": "draft_mvb3dsse_syb4e"
+    },
+    "eval_oth_005": {
+      "id": "eval_oth_005",
+      "senderEmail": "katniss.everdeen@district12.gov",
+      "senderName": "Katniss Everdeen",
+      "subject": "Is Brilliant Directories HIPAA compliant for patient records?",
+      "body": "Hello,\n\nWe want to use your directory software to store patient medical history and doctor appointment notes. Does your infrastructure meet HIPAA Title II compliance standards?\n\nKatniss",
+      "receivedAt": "2026-10-16T14:57:53.156Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Regulatory compliance policy question requiring authoritative legal statement.",
+        "tags": [
+          "hipaa",
+          "compliance",
+          "legal"
+        ]
+      },
+      "category": "other_or_uncertain",
+      "confidence": 0.9,
+      "draftId": "draft_mvb3dssn_xgo6b"
+    },
+    "eval_oth_006": {
+      "id": "eval_oth_006",
+      "senderEmail": "legolas.greenleaf@woodland.realm",
+      "senderName": "Legolas",
+      "subject": "Duplicate submission test retry",
+      "body": "Hi Support,\n\nOur custom domain directorypro.com points to Brilliant Directories, but visitors are seeing a \"Not Secure\" warning in Chrome. I updated the nameservers 48 hours ago. Can you verify why the automated Let's Encrypt SSL certificate is not generating?\n\nThanks,\nMarcus",
+      "receivedAt": "2026-10-16T14:57:53.166Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Simulated duplicate retry test to test idempotency and duplicate filtering.",
+        "tags": [
+          "duplicate",
+          "retry",
+          "idempotency"
+        ]
+      },
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvb3dssy_hhinm"
+    },
+    "eval_oth_007": {
+      "id": "eval_oth_007",
+      "senderEmail": "marty.mcfly@hillvalley.org",
+      "senderName": "Marty McFly",
+      "subject": "Blank message body test",
+      "body": "",
+      "receivedAt": "2026-10-16T14:57:53.177Z",
+      "status": "awaiting_review",
+      "metadata": {
+        "scenarioDescription": "Empty message body edge case handling.",
+        "tags": [
+          "empty_body",
+          "edge_case",
+          "validation"
+        ]
+      },
+      "category": "other_or_uncertain",
+      "confidence": 0.9,
+      "draftId": "draft_mvb3dst9_n2y1f"
+    }
+  },
+  "drafts": {
+    "draft_mvb3dsi4_y7ysh": {
+      "id": "draft_mvb3dsi4_y7ysh",
+      "emailId": "eval_tech_001",
+      "category": "technical_support",
+      "proposedBody": "Hello Marcus Vance,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"SSL Certificate failing on custom domain directorypro.com\":\n\nTo connect your live domain, navigate to Settings > Domain Manager in your admin dashboard. Enter your custom domain and point your DNS A Record to the Brilliant Directories server IP.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Guide 1. How to Connect a Live Domain Name: https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name\n\nYou can also reference the accompanying configuration screenshot:\n• Domain Manager wizard setup screen: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Guide 1. How to Connect a Live Domain Name",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+          "snippet": "The current Domain Manager guides the entire connection through up to four stages: Choose An Address, Check It, Point Domain, and Switch Over.",
+          "score": 0.88,
+          "section": "Domain Setup",
+          "images": [
+            {
+              "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+              "caption": "Domain Manager wizard setup screen"
+            }
+          ]
+        }
+      ],
+      "supportingImages": [
+        {
+          "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+          "caption": "Domain Manager wizard setup screen"
+        }
+      ],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Guide 1. How to Connect a Live Domain Name).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.781Z",
+      "updatedAt": "2026-10-16T14:57:52.781Z"
+    },
+    "draft_mvb3dsia_c7chd": {
+      "id": "draft_mvb3dsia_c7chd",
+      "emailId": "eval_tech_002",
+      "category": "technical_support",
+      "proposedBody": "Hello Elena Rostova,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Webhook endpoint returning HTTP 500 on member signup\":\n\nWebhooks can be configured under Developer Hub > Webhooks. Brilliant Directories supports outbound webhooks with HMAC SHA-256 signature verification.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Developer Hub: Webhooks & API Integration: https://support.brilliantdirectories.com/support/solutions/articles/12000089012-webhooks\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Developer Hub: Webhooks & API Integration",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089012-webhooks",
+          "snippet": "Configure event-driven webhooks for member signups, billing updates, and form submissions in Developer Tools > Webhooks.",
+          "score": 0.83,
+          "section": "Developer Hub",
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Developer Hub: Webhooks & API Integration).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.786Z",
+      "updatedAt": "2026-10-16T14:57:52.786Z"
+    },
+    "draft_mvb3dsig_zo5y3": {
+      "id": "draft_mvb3dsig_zo5y3",
+      "emailId": "eval_tech_003",
+      "category": "technical_support",
+      "proposedBody": "Hello Dave Miller,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Member search results page displaying 404 error\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.792Z",
+      "updatedAt": "2026-10-16T14:57:52.792Z"
+    },
+    "draft_mvb3dsim_h0zed": {
+      "id": "draft_mvb3dsim_h0zed",
+      "emailId": "eval_tech_004",
+      "category": "technical_support",
+      "proposedBody": "Hello Sarah Connor,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"API rate limit exceeded response code 429\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.798Z",
+      "updatedAt": "2026-10-16T14:57:52.798Z"
+    },
+    "draft_mvb3dsir_8qdd0": {
+      "id": "draft_mvb3dsir_8qdd0",
+      "emailId": "eval_tech_005",
+      "category": "technical_support",
+      "proposedBody": "Hello Oliver Twist,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Images failing to upload on member profile photo upload\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.803Z",
+      "updatedAt": "2026-10-16T14:57:52.803Z"
+    },
+    "draft_mvb3dsix_liv83": {
+      "id": "draft_mvb3dsix_liv83",
+      "emailId": "eval_tech_006",
+      "category": "technical_support",
+      "proposedBody": "Hello Amira Khan,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Google Maps API key error: RefererNotAllowedMapError\":\n\nTo connect your live domain, navigate to Settings > Domain Manager in your admin dashboard. Enter your custom domain and point your DNS A Record to the Brilliant Directories server IP.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Guide 1. How to Connect a Live Domain Name: https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name\n\nYou can also reference the accompanying configuration screenshot:\n• Domain Manager wizard setup screen: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Guide 1. How to Connect a Live Domain Name",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+          "snippet": "The current Domain Manager guides the entire connection through up to four stages: Choose An Address, Check It, Point Domain, and Switch Over.",
+          "score": 0.88,
+          "section": "Domain Setup",
+          "images": [
+            {
+              "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+              "caption": "Domain Manager wizard setup screen"
+            }
+          ]
+        }
+      ],
+      "supportingImages": [
+        {
+          "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+          "caption": "Domain Manager wizard setup screen"
+        }
+      ],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Guide 1. How to Connect a Live Domain Name).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.809Z",
+      "updatedAt": "2026-10-16T14:57:52.809Z"
+    },
+    "draft_mvb3dsj3_m0u6v": {
+      "id": "draft_mvb3dsj3_m0u6v",
+      "emailId": "eval_tech_007",
+      "category": "technical_support",
+      "proposedBody": "Hello Tom Bradley,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Database connection intermittent timeouts during peak traffic\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Infrastructure connection issue requires technical triage."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:52.815Z",
+      "updatedAt": "2026-10-16T14:57:52.815Z"
+    },
+    "draft_mvb3dsj8_0xna8": {
+      "id": "draft_mvb3dsj8_0xna8",
+      "emailId": "eval_tech_008",
+      "category": "billing_and_payments",
+      "proposedBody": "Hello Devin Zhao,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Custom JavaScript snippet breaking checkout form\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.820Z",
+      "updatedAt": "2026-10-16T14:57:52.820Z"
+    },
+    "draft_mvb3dsjf_btlqo": {
+      "id": "draft_mvb3dsjf_btlqo",
+      "emailId": "eval_bill_001",
+      "category": "billing_and_payments",
+      "proposedBody": "Hello Clara Oswald,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Requesting invoice receipt for last month annual renewal\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.827Z",
+      "updatedAt": "2026-10-16T14:57:52.827Z"
+    },
+    "draft_mvb3dsjl_b0354": {
+      "id": "draft_mvb3dsjl_b0354",
+      "emailId": "eval_bill_002",
+      "category": "billing_and_payments",
+      "proposedBody": "Hello Arthur Dent,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"How to switch connected Stripe payment gateway account\":\n\nWebhooks can be configured under Developer Hub > Webhooks. Brilliant Directories supports outbound webhooks with HMAC SHA-256 signature verification.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Developer Hub: Webhooks & API Integration: https://support.brilliantdirectories.com/support/solutions/articles/12000089012-webhooks\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Developer Hub: Webhooks & API Integration",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089012-webhooks",
+          "snippet": "Configure event-driven webhooks for member signups, billing updates, and form submissions in Developer Tools > Webhooks.",
+          "score": 0.83,
+          "section": "Developer Hub",
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Developer Hub: Webhooks & API Integration).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.833Z",
+      "updatedAt": "2026-10-16T14:57:52.833Z"
+    },
+    "draft_mvb3dsjs_v1olx": {
+      "id": "draft_mvb3dsjs_v1olx",
+      "emailId": "eval_bill_003",
+      "category": "billing_and_payments",
+      "proposedBody": "Hello Bruce Wayne,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Cancellation and refund request for accidental duplicate charge\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Financial adjustment, refund, or tax exemption requires billing review."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:52.840Z",
+      "updatedAt": "2026-10-16T14:57:52.840Z"
+    },
+    "draft_mvb3dsjz_2t96a": {
+      "id": "draft_mvb3dsjz_2t96a",
+      "emailId": "eval_bill_004",
+      "category": "billing_and_payments",
+      "proposedBody": "Hello Penny Hofstadter,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Updating credit card details on file for monthly hosting\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.847Z",
+      "updatedAt": "2026-10-16T14:57:52.847Z"
+    },
+    "draft_mvb3dsk4_m77fi": {
+      "id": "draft_mvb3dsk4_m77fi",
+      "emailId": "eval_bill_005",
+      "category": "billing_and_payments",
+      "proposedBody": "Hello Gordon Gekko,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Inquiry regarding volume discount for 20 directory websites\":\n\nYou can manage membership tiers in Finance > Membership Plans. From here you can configure pricing, renewal frequencies (monthly/annual), and profile publishing privileges.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Finance: Membership Plans Management: https://support.brilliantdirectories.com/support/solutions/articles/12000078901-membership-plans\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Finance: Membership Plans Management",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078901-membership-plans",
+          "snippet": "Navigate to Finance > Membership Plans to create, edit, or clone member pricing tiers.",
+          "score": 0.85,
+          "section": "Finance > Membership Plans",
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Finance: Membership Plans Management).",
+      "uncertaintyWarnings": [
+        "Financial adjustment, refund, or tax exemption requires billing review."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:52.852Z",
+      "updatedAt": "2026-10-16T14:57:52.852Z"
+    },
+    "draft_mvb3dska_sulj9": {
+      "id": "draft_mvb3dska_sulj9",
+      "emailId": "eval_bill_006",
+      "category": "billing_and_payments",
+      "proposedBody": "Hello Ned Stark,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Tax exemption certificate submission for non-profit 501(c)(3)\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Financial adjustment, refund, or tax exemption requires billing review."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:52.858Z",
+      "updatedAt": "2026-10-16T14:57:52.858Z"
+    },
+    "draft_mvb3dskh_rtkua": {
+      "id": "draft_mvb3dskh_rtkua",
+      "emailId": "eval_bill_007",
+      "category": "billing_and_payments",
+      "proposedBody": "Hello Fiona Gallagher,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Failed payment notification email received today\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.865Z",
+      "updatedAt": "2026-10-16T14:57:52.865Z"
+    },
+    "draft_mvb3dskm_8dlh2": {
+      "id": "draft_mvb3dskm_8dlh2",
+      "emailId": "eval_bill_008",
+      "category": "billing_and_payments",
+      "proposedBody": "Hello Walter White,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Chargeback dispute filed by member on my directory\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.870Z",
+      "updatedAt": "2026-10-16T14:57:52.870Z"
+    },
+    "draft_mvb3dskt_fqjd8": {
+      "id": "draft_mvb3dskt_fqjd8",
+      "emailId": "eval_acc_001",
+      "category": "account_and_login",
+      "proposedBody": "Hello Alice Liddell,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Password reset link not arriving in email inbox\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.877Z",
+      "updatedAt": "2026-10-16T14:57:52.877Z"
+    },
+    "draft_mvb3dskz_it1sd": {
+      "id": "draft_mvb3dskz_it1sd",
+      "emailId": "eval_acc_002",
+      "category": "account_and_login",
+      "proposedBody": "Hello Bob Parr,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Locked out of Two-Factor Authentication (2FA) new phone\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Account security or ownership transfer requires human verification."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:52.883Z",
+      "updatedAt": "2026-10-16T14:57:52.883Z"
+    },
+    "draft_mvb3dsl5_85hwb": {
+      "id": "draft_mvb3dsl5_85hwb",
+      "emailId": "eval_acc_003",
+      "category": "account_and_login",
+      "proposedBody": "Hello Carol Danvers,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"How to transfer primary account ownership to new webmaster\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Account security or ownership transfer requires human verification."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:52.889Z",
+      "updatedAt": "2026-10-16T14:57:52.889Z"
+    },
+    "draft_mvb3dslc_yvbp0": {
+      "id": "draft_mvb3dslc_yvbp0",
+      "emailId": "eval_acc_004",
+      "category": "account_and_login",
+      "proposedBody": "Hello Dan Humphrey,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Adding secondary admin users with restricted permissions\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.896Z",
+      "updatedAt": "2026-10-16T14:57:52.896Z"
+    },
+    "draft_mvb3dsli_ivad3": {
+      "id": "draft_mvb3dsli_ivad3",
+      "emailId": "eval_acc_005",
+      "category": "account_and_login",
+      "proposedBody": "Hello Eve Polastri,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Account locked due to 5 consecutive failed login attempts\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.902Z",
+      "updatedAt": "2026-10-16T14:57:52.902Z"
+    },
+    "draft_mvb3dslp_r4sxz": {
+      "id": "draft_mvb3dslp_r4sxz",
+      "emailId": "eval_acc_006",
+      "category": "account_and_login",
+      "proposedBody": "Hello Frank Castle,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Single Sign-On (SSO) with Okta integration question\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.909Z",
+      "updatedAt": "2026-10-16T14:57:52.909Z"
+    },
+    "draft_mvb3dslv_6ilc1": {
+      "id": "draft_mvb3dslv_6ilc1",
+      "emailId": "eval_acc_007",
+      "category": "account_and_login",
+      "proposedBody": "Hello Grace Hopper,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Changing email address associated with my member account\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.915Z",
+      "updatedAt": "2026-10-16T14:57:52.915Z"
+    },
+    "draft_mvb3dsm1_b0bct": {
+      "id": "draft_mvb3dsm1_b0bct",
+      "emailId": "eval_acc_008",
+      "category": "account_and_login",
+      "proposedBody": "Hello Harry Potter,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Session timing out too quickly in admin portal\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.921Z",
+      "updatedAt": "2026-10-16T14:57:52.921Z"
+    },
+    "draft_mvb3dsm8_4co80": {
+      "id": "draft_mvb3dsm8_4co80",
+      "emailId": "eval_prod_001",
+      "category": "product_configuration",
+      "proposedBody": "Hello Ian Malcolm,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"How to add custom dropdown fields to the member signup form\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.928Z",
+      "updatedAt": "2026-10-16T14:57:52.928Z"
+    },
+    "draft_mvb3dsme_bboj3": {
+      "id": "draft_mvb3dsme_bboj3",
+      "emailId": "eval_prod_002",
+      "category": "product_configuration",
+      "proposedBody": "Hello Judy Hopps,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Setting up automated lead routing to local members\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.934Z",
+      "updatedAt": "2026-10-16T14:57:52.934Z"
+    },
+    "draft_mvb3dsmn_6guha": {
+      "id": "draft_mvb3dsmn_6guha",
+      "emailId": "eval_prod_003",
+      "category": "product_configuration",
+      "proposedBody": "Hello Ken Adams,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Customizing the main homepage navigation menu items\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.943Z",
+      "updatedAt": "2026-10-16T14:57:52.943Z"
+    },
+    "draft_mvb3dsmu_a2d3w": {
+      "id": "draft_mvb3dsmu_a2d3w",
+      "emailId": "eval_prod_004",
+      "category": "product_configuration",
+      "proposedBody": "Hello Luna Lovegood,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Editing the automated welcome email sent to new members\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.950Z",
+      "updatedAt": "2026-10-16T14:57:52.950Z"
+    },
+    "draft_mvb3dsn1_6pw2k": {
+      "id": "draft_mvb3dsn1_6pw2k",
+      "emailId": "eval_prod_005",
+      "category": "product_configuration",
+      "proposedBody": "Hello Morpheus,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Enabling recurring monthly subscriptions on membership plans\":\n\nYou can manage membership tiers in Finance > Membership Plans. From here you can configure pricing, renewal frequencies (monthly/annual), and profile publishing privileges.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Finance: Membership Plans Management: https://support.brilliantdirectories.com/support/solutions/articles/12000078901-membership-plans\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Finance: Membership Plans Management",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078901-membership-plans",
+          "snippet": "Navigate to Finance > Membership Plans to create, edit, or clone member pricing tiers.",
+          "score": 0.85,
+          "section": "Finance > Membership Plans",
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Finance: Membership Plans Management).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.957Z",
+      "updatedAt": "2026-10-16T14:57:52.957Z"
+    },
+    "draft_mvb3dsn8_8d7xd": {
+      "id": "draft_mvb3dsn8_8d7xd",
+      "emailId": "eval_prod_006",
+      "category": "product_configuration",
+      "proposedBody": "Hello Natasha Romanoff,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"SEO meta tags template for member profile URLs\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.964Z",
+      "updatedAt": "2026-10-16T14:57:52.964Z"
+    },
+    "draft_mvb3dsnf_i37hq": {
+      "id": "draft_mvb3dsnf_i37hq",
+      "emailId": "eval_prod_007",
+      "category": "account_and_login",
+      "proposedBody": "Hello Oscar Martinez,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Hiding member phone numbers behind a login wall\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.971Z",
+      "updatedAt": "2026-10-16T14:57:52.971Z"
+    },
+    "draft_mvb3dsnp_3mnx3": {
+      "id": "draft_mvb3dsnp_3mnx3",
+      "emailId": "eval_prod_008",
+      "category": "product_configuration",
+      "proposedBody": "Hello Padme Amidala,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Translating website front-end buttons to Spanish and French\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.981Z",
+      "updatedAt": "2026-10-16T14:57:52.981Z"
+    },
+    "draft_mvb3dsnx_30qfi": {
+      "id": "draft_mvb3dsnx_30qfi",
+      "emailId": "eval_feat_001",
+      "category": "feature_request",
+      "proposedBody": "Hello Quinn Fabray,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Feature Request: Native iOS and Android mobile app wrapper\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.989Z",
+      "updatedAt": "2026-10-16T14:57:52.989Z"
+    },
+    "draft_mvb3dso5_9eh6g": {
+      "id": "draft_mvb3dso5_9eh6g",
+      "emailId": "eval_feat_002",
+      "category": "feature_request",
+      "proposedBody": "Hello Ellen Ripley,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Request for Cryptocurrency payment integration (Bitcoin / USDC)\":\n\nYou can manage membership tiers in Finance > Membership Plans. From here you can configure pricing, renewal frequencies (monthly/annual), and profile publishing privileges.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Finance: Membership Plans Management: https://support.brilliantdirectories.com/support/solutions/articles/12000078901-membership-plans\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Finance: Membership Plans Management",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078901-membership-plans",
+          "snippet": "Navigate to Finance > Membership Plans to create, edit, or clone member pricing tiers.",
+          "score": 0.85,
+          "section": "Finance > Membership Plans",
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Finance: Membership Plans Management).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:52.997Z",
+      "updatedAt": "2026-10-16T14:57:52.997Z"
+    },
+    "draft_mvb3dsoc_57346": {
+      "id": "draft_mvb3dsoc_57346",
+      "emailId": "eval_feat_003",
+      "category": "feature_request",
+      "proposedBody": "Hello Sam Winchester,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Feature Suggestion: AI-powered blog post generator inside CMS\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:53.005Z",
+      "updatedAt": "2026-10-16T14:57:53.005Z"
+    },
+    "draft_mvb3dsol_40m36": {
+      "id": "draft_mvb3dsol_40m36",
+      "emailId": "eval_feat_004",
+      "category": "feature_request",
+      "proposedBody": "Hello Tess Ocean,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"WhatsApp direct messaging button on member profile cards\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:53.013Z",
+      "updatedAt": "2026-10-16T14:57:53.013Z"
+    },
+    "draft_mvb3dsos_nfsnt": {
+      "id": "draft_mvb3dsos_nfsnt",
+      "emailId": "eval_feat_005",
+      "category": "feature_request",
+      "proposedBody": "Hello Umberto Eco,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Support for dark mode toggle for front-end visitors\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:53.021Z",
+      "updatedAt": "2026-10-16T14:57:53.021Z"
+    },
+    "draft_mvb3dsp2_47db0": {
+      "id": "draft_mvb3dsp2_47db0",
+      "emailId": "eval_feat_006",
+      "category": "feature_request",
+      "proposedBody": "Hello Victor Frankenstein,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Integration with HubSpot CRM for two-way contact syncing\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:53.030Z",
+      "updatedAt": "2026-10-16T14:57:53.030Z"
+    },
+    "draft_mvb3dsp9_067xj": {
+      "id": "draft_mvb3dsp9_067xj",
+      "emailId": "eval_feat_007",
+      "category": "other_or_uncertain",
+      "proposedBody": "Hello Wanda Maximoff,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Digital signature add-on for vendor agreements upon signup\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Inquiry requires human triage or policy review."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:53.037Z",
+      "updatedAt": "2026-10-16T14:57:53.037Z"
+    },
+    "draft_mvb3dspi_bjg6v": {
+      "id": "draft_mvb3dspi_bjg6v",
+      "emailId": "eval_feat_008",
+      "category": "feature_request",
+      "proposedBody": "Hello Xena,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Multi-currency pricing display based on visitor IP geolocation\":\n\nYou can manage membership tiers in Finance > Membership Plans. From here you can configure pricing, renewal frequencies (monthly/annual), and profile publishing privileges.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Finance: Membership Plans Management: https://support.brilliantdirectories.com/support/solutions/articles/12000078901-membership-plans\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Finance: Membership Plans Management",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000078901-membership-plans",
+          "snippet": "Navigate to Finance > Membership Plans to create, edit, or clone member pricing tiers.",
+          "score": 0.85,
+          "section": "Finance > Membership Plans",
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Finance: Membership Plans Management).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:53.046Z",
+      "updatedAt": "2026-10-16T14:57:53.046Z"
+    },
+    "draft_mvb3dspp_tpnav": {
+      "id": "draft_mvb3dspp_tpnav",
+      "emailId": "eval_comp_001",
+      "category": "complaints",
+      "proposedBody": "Hello Yvonne Strahovski,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Extremely upset: Our directory went down during Black Friday sale\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Customer expression of dissatisfaction or dispute."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:53.054Z",
+      "updatedAt": "2026-10-16T14:57:53.054Z"
+    },
+    "draft_mvb3dspy_fl7tq": {
+      "id": "draft_mvb3dspy_fl7tq",
+      "emailId": "eval_comp_002",
+      "category": "complaints",
+      "proposedBody": "Hello Zack Morris,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Unacceptable 4-day delay on my support ticket #84920\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Customer expression of dissatisfaction or dispute."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:53.062Z",
+      "updatedAt": "2026-10-16T14:57:53.062Z"
+    },
+    "draft_mvb3dsq7_itzrk": {
+      "id": "draft_mvb3dsq7_itzrk",
+      "emailId": "eval_comp_003",
+      "category": "complaints",
+      "proposedBody": "Hello Ann Perkins,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Charged again after requesting cancellation last month\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Customer expression of dissatisfaction or dispute."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:53.071Z",
+      "updatedAt": "2026-10-16T14:57:53.071Z"
+    },
+    "draft_mvb3dsqh_p2t8c": {
+      "id": "draft_mvb3dsqh_p2t8c",
+      "emailId": "eval_comp_004",
+      "category": "complaints",
+      "proposedBody": "Hello Ben Wyatt,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Software update broke our custom CSS styling across all pages\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Customer expression of dissatisfaction or dispute."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:53.081Z",
+      "updatedAt": "2026-10-16T14:57:53.081Z"
+    },
+    "draft_mvb3dsqo_dwc33": {
+      "id": "draft_mvb3dsqo_dwc33",
+      "emailId": "eval_comp_005",
+      "category": "complaints",
+      "proposedBody": "Hello Chris Traeger,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Spam accounts flooding our member directory despite reCAPTCHA\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Customer expression of dissatisfaction or dispute."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:53.088Z",
+      "updatedAt": "2026-10-16T14:57:53.088Z"
+    },
+    "draft_mvb3dsqx_784lc": {
+      "id": "draft_mvb3dsqx_784lc",
+      "emailId": "eval_comp_006",
+      "category": "complaints",
+      "proposedBody": "Hello Donna Meagle,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Your platform is too complicated for non-technical owners\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Customer expression of dissatisfaction or dispute."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:53.097Z",
+      "updatedAt": "2026-10-16T14:57:53.097Z"
+    },
+    "draft_mvb3dsr6_cq85h": {
+      "id": "draft_mvb3dsr6_cq85h",
+      "emailId": "eval_comp_007",
+      "category": "complaints",
+      "proposedBody": "Hello Eddie Munson,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Listing claim feature allowed an impostor to steal my company listing\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Customer expression of dissatisfaction or dispute."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:53.106Z",
+      "updatedAt": "2026-10-16T14:57:53.106Z"
+    },
+    "draft_mvb3dsrg_y143v": {
+      "id": "draft_mvb3dsrg_y143v",
+      "emailId": "eval_comp_008",
+      "category": "complaints",
+      "proposedBody": "Hello Uncle Fester,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Threatening legal action if trademarked name is not removed\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Customer expression of dissatisfaction or dispute."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:53.116Z",
+      "updatedAt": "2026-10-16T14:57:53.116Z"
+    },
+    "draft_mvb3dsrp_r7k5w": {
+      "id": "draft_mvb3dsrp_r7k5w",
+      "emailId": "eval_oth_001",
+      "category": "other_or_uncertain",
+      "proposedBody": "Hello Gaston,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Help\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Inquiry does not clearly match known categories."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:53.125Z",
+      "updatedAt": "2026-10-16T14:57:53.125Z"
+    },
+    "draft_mvb3dsrx_wjkwg": {
+      "id": "draft_mvb3dsrx_wjkwg",
+      "emailId": "eval_oth_002",
+      "category": "other_or_uncertain",
+      "proposedBody": "Hello Homer Simpson,\n\nThank you for contacting Brilliant Directories Support.\n\nWe have received your inquiry regarding \"Can I install WordPress WooCommerce plugins onto my BD directory?\". To ensure you receive accurate and thorough guidance, our senior technical consulting team is reviewing your specific setup.\n\nA specialist will follow up directly as soon as the review is complete.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [],
+      "supportingImages": [],
+      "internalExplanation": "No high-confidence documentation found; created holding draft for human review.",
+      "uncertaintyWarnings": [
+        "Inquiry requires human triage or policy review.",
+        "Knowledge Brain indicated insufficient documentation (Confidence: 0.15)."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:53.133Z",
+      "updatedAt": "2026-10-16T14:57:53.133Z"
+    },
+    "draft_mvb3dss6_w1pua": {
+      "id": "draft_mvb3dss6_w1pua",
+      "emailId": "eval_oth_003",
+      "category": "other_or_uncertain",
+      "proposedBody": "Hello Indy Jones,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Partnership proposition for archaeological excavation directory\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Inquiry requires human triage or policy review."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:53.142Z",
+      "updatedAt": "2026-10-16T14:57:53.142Z"
+    },
+    "draft_mvb3dsse_syb4e": {
+      "id": "draft_mvb3dsse_syb4e",
+      "emailId": "eval_oth_004",
+      "category": "other_or_uncertain",
+      "proposedBody": "Hello Jack Napier,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Cryptic riddle regarding directory software\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Inquiry requires human triage or policy review."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:53.150Z",
+      "updatedAt": "2026-10-16T14:57:53.150Z"
+    },
+    "draft_mvb3dssn_xgo6b": {
+      "id": "draft_mvb3dssn_xgo6b",
+      "emailId": "eval_oth_005",
+      "category": "other_or_uncertain",
+      "proposedBody": "Hello Katniss Everdeen,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Is Brilliant Directories HIPAA compliant for patient records?\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Inquiry requires human triage or policy review."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:53.159Z",
+      "updatedAt": "2026-10-16T14:57:53.159Z"
+    },
+    "draft_mvb3dssy_hhinm": {
+      "id": "draft_mvb3dssy_hhinm",
+      "emailId": "eval_oth_006",
+      "category": "technical_support",
+      "proposedBody": "Hello Legolas,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Duplicate submission test retry\":\n\nTo connect your live domain, navigate to Settings > Domain Manager in your admin dashboard. Enter your custom domain and point your DNS A Record to the Brilliant Directories server IP.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Guide 1. How to Connect a Live Domain Name: https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name\n\nYou can also reference the accompanying configuration screenshot:\n• Domain Manager wizard setup screen: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Guide 1. How to Connect a Live Domain Name",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+          "snippet": "The current Domain Manager guides the entire connection through up to four stages: Choose An Address, Check It, Point Domain, and Switch Over.",
+          "score": 0.88,
+          "section": "Domain Setup",
+          "images": [
+            {
+              "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+              "caption": "Domain Manager wizard setup screen"
+            }
+          ]
+        }
+      ],
+      "supportingImages": [
+        {
+          "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+          "caption": "Domain Manager wizard setup screen"
+        }
+      ],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Guide 1. How to Connect a Live Domain Name).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:57:53.170Z",
+      "updatedAt": "2026-10-16T14:57:53.170Z"
+    },
+    "draft_mvb3dst9_n2y1f": {
+      "id": "draft_mvb3dst9_n2y1f",
+      "emailId": "eval_oth_007",
+      "category": "other_or_uncertain",
+      "proposedBody": "Hello Marty McFly,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Blank message body test\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Email body is completely empty."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T14:57:53.181Z",
+      "updatedAt": "2026-10-16T14:57:53.181Z"
+    }
+  },
+  "reviews": [],
+  "sentLog": []
+}

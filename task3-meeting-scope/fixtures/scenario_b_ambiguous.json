@@ -1,0 +1,9 @@
+{
+  "scenario_id": "SCENARIO_B",
+  "project_id": "PRJ-HEALTH-02",
+  "title": "MedCare Health Portal Discovery Meeting",
+  "client_name": "MedCare Health Group",
+  "meeting_type": "initial",
+  "description": "Discovery session containing ambiguous, conflicting, and unsupported requirements requiring clarification and expert review.",
+  "transcript": "Consultant: Welcome Dr. Robert. Let's explore what MedCare Health is looking to build.\nDr. Robert (Client): We want a directory of our 150 medical doctors and clinical specialists. We also want patients to book appointments.\nConsultant: Tell me more about the patient booking and data storage requirements.\nDr. Robert (Client): When a patient books an appointment, we want them to upload their private medical records, blood test PDFs, and prescription histories directly to the doctor's profile page, and keep it stored there in compliance with HIPAA regulations.\nConsultant: Storing Protected Health Information on a public directory platform raises major regulatory concerns. Brilliant Directories is a marketing directory, not a certified HIPAA EHR.\nDr. Robert (Client): Well, maybe we can run our custom WordPress PHP plugin directly inside Brilliant Directories to handle the encryption. Can we upload WordPress plugins to your backend?\nConsultant: Brilliant Directories runs on its own proprietary SaaS architecture, not WordPress. Let's document that as a technical conflict requiring architectural clarification.\nDr. Robert (Client): Also, we want a native mobile app for iOS and Android published on the Apple App Store and Google Play Store where users can download it as an offline native application.\nConsultant: What is your timeline and budget for native app development versus responsive web?\nDr. Robert (Client): We aren't sure on the app budget yet. Can you give us an estimate or clarify what is native versus web?"
+}

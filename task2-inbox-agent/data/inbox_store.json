@@ -1,0 +1,771 @@
+{
+  "emails": {
+    "eval_tech_001": {
+      "id": "eval_tech_001",
+      "senderEmail": "marcus.vance@example.org",
+      "senderName": "Marcus Vance",
+      "subject": "SSL Certificate failing on custom domain directorypro.com",
+      "body": "Hi Support,\n\nOur custom domain directorypro.com points to Brilliant Directories, but visitors are seeing a \"Not Secure\" warning in Chrome. I updated the nameservers 48 hours ago. Can you verify why the automated Let's Encrypt SSL certificate is not generating?\n\nThanks,\nMarcus",
+      "receivedAt": "2026-10-16T13:20:36.199Z",
+      "status": "sent",
+      "metadata": {},
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvazwoz2_bn954"
+    },
+    "eval_tech_002": {
+      "id": "eval_tech_002",
+      "senderEmail": "elena.rostova@example.com",
+      "senderName": "Elena Rostova",
+      "subject": "Webhook endpoint returning HTTP 500 on member signup",
+      "body": "Hello,\n\nEvery time a member completes registration on our site, our Zapier webhook receives an HTTP 500 internal server error from your webhook dispatcher. Can you check the error logs for webhook ID wh_98234?\n\nRegards,\nElena",
+      "receivedAt": "2026-10-16T13:20:36.225Z",
+      "status": "awaiting_review",
+      "metadata": {},
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvazwozq_20di8"
+    },
+    "eval_tech_003": {
+      "id": "eval_tech_003",
+      "senderEmail": "dave.miller@techhub.net",
+      "senderName": "Dave Miller",
+      "subject": "Member search results page displaying 404 error",
+      "body": "Hello Team,\n\nWhen users click on the \"Doctors in Chicago\" search URL (/doctors/chicago), it throws a 404 page not found error. All other cities work fine. Did the permalink structure change?\n\nBest,\nDave",
+      "receivedAt": "2026-10-16T13:20:36.239Z",
+      "status": "sent",
+      "metadata": {},
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvazwp05_lwxlm"
+    },
+    "eval_tech_004": {
+      "id": "eval_tech_004",
+      "senderEmail": "sarah.connor@cyberdyne.io",
+      "senderName": "Sarah Connor",
+      "subject": "API rate limit exceeded response code 429",
+      "body": "Hi,\n\nWe are syncing our member database via the REST API and started receiving HTTP 429 Too Many Requests. What is the standard rate limit per minute, and how can we request an increase?\n\nThanks,\nSarah",
+      "receivedAt": "2026-10-16T13:20:36.254Z",
+      "status": "awaiting_review",
+      "metadata": {},
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvazwp0i_8jh7k"
+    },
+    "eval_tech_005": {
+      "id": "eval_tech_005",
+      "senderEmail": "oliver.twist@citydirectory.co.uk",
+      "senderName": "Oliver Twist",
+      "subject": "Images failing to upload on member profile photo upload",
+      "body": "Hello,\n\nOur members report that uploading JPEG photos larger than 2MB fails silently with no error message. Where do I configure the max upload file size in the admin portal?\n\nThanks,\nOliver",
+      "receivedAt": "2026-10-16T13:20:36.267Z",
+      "status": "sent",
+      "metadata": {},
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvazwp0u_uzhz2"
+    },
+    "eval_tech_006": {
+      "id": "eval_tech_006",
+      "senderEmail": "amira.khan@directorybuilders.com",
+      "senderName": "Amira Khan",
+      "subject": "Google Maps API key error: RefererNotAllowedMapError",
+      "body": "Hi Support,\n\nThe map on our homepage shows \"For development purposes only\". In browser console I see RefererNotAllowedMapError. How do I whitelist our domain in Google Cloud Console?\n\nThanks,\nAmira",
+      "receivedAt": "2026-10-16T13:20:36.281Z",
+      "status": "awaiting_review",
+      "metadata": {},
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvazwp17_qfsnk"
+    },
+    "eval_tech_007": {
+      "id": "eval_tech_007",
+      "senderEmail": "tom.bradley@sportsnetwork.com",
+      "senderName": "Tom Bradley",
+      "subject": "Database connection intermittent timeouts during peak traffic",
+      "body": "URGENT: Our directory site experienced 3 separate database connection drops today at 2 PM, 4 PM, and 6 PM EST. Over 50,000 visitors were on the site. Is our VPS server hitting connection limits?\n\nTom Bradley",
+      "receivedAt": "2026-10-16T13:20:36.293Z",
+      "status": "awaiting_review",
+      "metadata": {},
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvazwp1k_mw2yx"
+    },
+    "eval_tech_008": {
+      "id": "eval_tech_008",
+      "senderEmail": "devin.z@startupdirectory.com",
+      "senderName": "Devin Zhao",
+      "subject": "Custom JavaScript snippet breaking checkout form",
+      "body": "Hey,\n\nI pasted a Google Tag Manager tracking script into the Custom Header section and now the credit card checkout button does not fire. Can you tell me which hook or header section is safe for 3rd party scripts?\n\nThanks,\nDevin",
+      "receivedAt": "2026-10-16T13:20:36.305Z",
+      "status": "awaiting_review",
+      "metadata": {},
+      "category": "billing_and_payments",
+      "confidence": 0.93,
+      "draftId": "draft_mvazwp1y_2ujzc"
+    },
+    "eval_bill_001": {
+      "id": "eval_bill_001",
+      "senderEmail": "clara.oswald@timeconsulting.com",
+      "senderName": "Clara Oswald",
+      "subject": "Requesting invoice receipt for last month annual renewal",
+      "body": "Hello Billing Department,\n\nOur annual subscription renewed on October 1st for $1,450. Could you please send us the official PDF VAT receipt with our company tax registration number GB123456789?\n\nThank you,\nClara",
+      "receivedAt": "2026-10-16T13:20:36.320Z",
+      "status": "awaiting_review",
+      "metadata": {},
+      "category": "billing_and_payments",
+      "confidence": 0.93,
+      "draftId": "draft_mvazwp2c_gz1i4"
+    },
+    "eval_bill_002": {
+      "id": "eval_bill_002",
+      "senderEmail": "arthur.dent@galacticguide.org",
+      "senderName": "Arthur Dent",
+      "subject": "How to switch connected Stripe payment gateway account",
+      "body": "Hi,\n\nWe formed a new LLC and need to disconnect our old Stripe account and connect our new Stripe account. What are the exact steps in the admin portal to update the Stripe API keys?\n\nArthur",
+      "receivedAt": "2026-10-16T13:20:36.334Z",
+      "status": "awaiting_review",
+      "metadata": {},
+      "category": "billing_and_payments",
+      "confidence": 0.93,
+      "draftId": "draft_mvazwp2p_ztaug"
+    },
+    "email_mvb37a5i_spolq": {
+      "id": "email_mvb37a5i_spolq",
+      "senderEmail": "alex@example.com",
+      "senderName": "Alex Rivera",
+      "subject": "Setting up custom domain",
+      "body": "Hi, I need help mapping my live DNS A-records and CNAME to Brilliant Directories. How do I do this?",
+      "receivedAt": "2026-10-16T14:52:49.062Z",
+      "status": "awaiting_review",
+      "metadata": {},
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvb37a5o_2udg0"
+    },
+    "email_mvb38euy_4b4ae": {
+      "id": "email_mvb38euy_4b4ae",
+      "senderEmail": "alex@example.com",
+      "senderName": "Alex Rivera",
+      "subject": "Setting up custom domain",
+      "body": "Hi, I need help mapping my live DNS A-records and CNAME to Brilliant Directories. How do I do this?",
+      "receivedAt": "2026-10-16T14:53:41.818Z",
+      "status": "awaiting_review",
+      "metadata": {},
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvb38ev1_pfoiw"
+    },
+    "email_mvb3906q_kkivo": {
+      "id": "email_mvb3906q_kkivo",
+      "senderEmail": "alex@example.com",
+      "senderName": "Alex Rivera",
+      "subject": "Setting up custom domain",
+      "body": "Hi, I need help mapping my live DNS A-records and CNAME to Brilliant Directories. How do I do this?",
+      "receivedAt": "2026-10-16T14:54:09.458Z",
+      "status": "awaiting_review",
+      "metadata": {},
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvb3906t_ihayh"
+    },
+    "email_mvb39hwo_k5buc": {
+      "id": "email_mvb39hwo_k5buc",
+      "senderEmail": "alex@example.com",
+      "senderName": "Alex Rivera",
+      "subject": "Setting up custom domain",
+      "body": "Hi, I need help mapping my live DNS A-records and CNAME to Brilliant Directories. How do I do this?",
+      "receivedAt": "2026-10-16T14:54:32.424Z",
+      "status": "awaiting_review",
+      "metadata": {},
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvb39hwr_zlw1l"
+    },
+    "email_mvb3admm_3gsw7": {
+      "id": "email_mvb3admm_3gsw7",
+      "senderEmail": "alex@example.com",
+      "senderName": "Alex Rivera",
+      "subject": "Setting up custom domain",
+      "body": "Hi, I need help mapping my live DNS A-records and CNAME to Brilliant Directories. How do I do this?",
+      "receivedAt": "2026-10-16T14:55:13.534Z",
+      "status": "awaiting_review",
+      "metadata": {},
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvb3admp_u7e3n"
+    },
+    "email_mvb3bajy_2cmo1": {
+      "id": "email_mvb3bajy_2cmo1",
+      "senderEmail": "alex@example.com",
+      "senderName": "Alex Rivera",
+      "subject": "Setting up custom domain",
+      "body": "Hi, I need help mapping my live DNS A-records and CNAME to Brilliant Directories. How do I do this?",
+      "receivedAt": "2026-10-16T14:55:56.206Z",
+      "status": "awaiting_review",
+      "metadata": {},
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvb3bak1_joug6"
+    },
+    "email_mvb3cbcg_zyzg6": {
+      "id": "email_mvb3cbcg_zyzg6",
+      "senderEmail": "alex@example.com",
+      "senderName": "Alex Rivera",
+      "subject": "Setting up custom domain",
+      "body": "Hi, I need help mapping my live DNS A-records and CNAME to Brilliant Directories. How do I do this?",
+      "receivedAt": "2026-10-16T14:56:43.888Z",
+      "status": "awaiting_review",
+      "metadata": {},
+      "category": "technical_support",
+      "confidence": 0.92,
+      "draftId": "draft_mvb3cbcj_st1qu"
+    }
+  },
+  "drafts": {
+    "draft_mvazwoz2_bn954": {
+      "id": "draft_mvazwoz2_bn954",
+      "emailId": "eval_tech_001",
+      "category": "technical_support",
+      "proposedBody": "Hello Marcus Vance,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"SSL Certificate failing on custom domain directorypro.com\":\n\nTo connect your live domain, navigate to Settings > Domain Manager in your admin dashboard. Enter your custom domain and point your DNS A Record to the Brilliant Directories server IP.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Guide 1. How to Connect a Live Domain Name: https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name\n\nYou can also reference the accompanying configuration screenshot:\n• Domain Manager wizard setup screen: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Guide 1. How to Connect a Live Domain Name",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+          "snippet": "The current Domain Manager guides the entire connection through up to four stages: Choose An Address, Check It, Point Domain, and Switch Over.",
+          "score": 0.88,
+          "section": "Domain Setup",
+          "images": [
+            {
+              "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+              "caption": "Domain Manager wizard setup screen"
+            }
+          ]
+        }
+      ],
+      "supportingImages": [
+        {
+          "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+          "caption": "Domain Manager wizard setup screen"
+        }
+      ],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Guide 1. How to Connect a Live Domain Name).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T13:20:36.206Z",
+      "updatedAt": "2026-10-16T13:24:31.739Z"
+    },
+    "draft_mvazwozq_20di8": {
+      "id": "draft_mvazwozq_20di8",
+      "emailId": "eval_tech_002",
+      "category": "technical_support",
+      "proposedBody": "Hello Elena Rostova,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Webhook endpoint returning HTTP 500 on member signup\":\n\nWebhooks can be configured under Developer Hub > Webhooks. Brilliant Directories supports outbound webhooks with HMAC SHA-256 signature verification.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Developer Hub: Webhooks & API Integration: https://support.brilliantdirectories.com/support/solutions/articles/12000089012-webhooks\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Developer Hub: Webhooks & API Integration",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089012-webhooks",
+          "snippet": "Configure event-driven webhooks for member signups, billing updates, and form submissions in Developer Tools > Webhooks.",
+          "score": 0.83,
+          "section": "Developer Hub",
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Developer Hub: Webhooks & API Integration).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T13:20:36.230Z",
+      "updatedAt": "2026-10-16T13:20:36.230Z"
+    },
+    "draft_mvazwp05_lwxlm": {
+      "id": "draft_mvazwp05_lwxlm",
+      "emailId": "eval_tech_003",
+      "category": "technical_support",
+      "proposedBody": "Hello Dave Miller,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Member search results page displaying 404 error\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T13:20:36.245Z",
+      "updatedAt": "2026-10-16T13:25:04.817Z"
+    },
+    "draft_mvazwp0i_8jh7k": {
+      "id": "draft_mvazwp0i_8jh7k",
+      "emailId": "eval_tech_004",
+      "category": "technical_support",
+      "proposedBody": "Hello Sarah Connor,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"API rate limit exceeded response code 429\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T13:20:36.258Z",
+      "updatedAt": "2026-10-16T13:20:36.258Z"
+    },
+    "draft_mvazwp0u_uzhz2": {
+      "id": "draft_mvazwp0u_uzhz2",
+      "emailId": "eval_tech_005",
+      "category": "technical_support",
+      "proposedBody": "Hello Oliver Twist,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Images failing to upload on member profile photo upload\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T13:20:36.270Z",
+      "updatedAt": "2026-10-16T14:31:19.457Z"
+    },
+    "draft_mvazwp17_qfsnk": {
+      "id": "draft_mvazwp17_qfsnk",
+      "emailId": "eval_tech_006",
+      "category": "technical_support",
+      "proposedBody": "Hello Amira Khan,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Google Maps API key error: RefererNotAllowedMapError\":\n\nTo connect your live domain, navigate to Settings > Domain Manager in your admin dashboard. Enter your custom domain and point your DNS A Record to the Brilliant Directories server IP.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Guide 1. How to Connect a Live Domain Name: https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name\n\nYou can also reference the accompanying configuration screenshot:\n• Domain Manager wizard setup screen: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Guide 1. How to Connect a Live Domain Name",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+          "snippet": "The current Domain Manager guides the entire connection through up to four stages: Choose An Address, Check It, Point Domain, and Switch Over.",
+          "score": 0.88,
+          "section": "Domain Setup",
+          "images": [
+            {
+              "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+              "caption": "Domain Manager wizard setup screen"
+            }
+          ]
+        }
+      ],
+      "supportingImages": [
+        {
+          "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+          "caption": "Domain Manager wizard setup screen"
+        }
+      ],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Guide 1. How to Connect a Live Domain Name).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T13:20:36.283Z",
+      "updatedAt": "2026-10-16T13:20:36.283Z"
+    },
+    "draft_mvazwp1k_mw2yx": {
+      "id": "draft_mvazwp1k_mw2yx",
+      "emailId": "eval_tech_007",
+      "category": "technical_support",
+      "proposedBody": "Hello Tom Bradley,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Database connection intermittent timeouts during peak traffic\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [
+        "Infrastructure connection issue requires technical triage."
+      ],
+      "humanReviewRequired": true,
+      "autoSendEligible": false,
+      "createdAt": "2026-10-16T13:20:36.296Z",
+      "updatedAt": "2026-10-16T13:20:36.296Z"
+    },
+    "draft_mvazwp1y_2ujzc": {
+      "id": "draft_mvazwp1y_2ujzc",
+      "emailId": "eval_tech_008",
+      "category": "billing_and_payments",
+      "proposedBody": "Hello Devin Zhao,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Custom JavaScript snippet breaking checkout form\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T13:20:36.310Z",
+      "updatedAt": "2026-10-16T13:20:36.310Z"
+    },
+    "draft_mvazwp2c_gz1i4": {
+      "id": "draft_mvazwp2c_gz1i4",
+      "emailId": "eval_bill_001",
+      "category": "billing_and_payments",
+      "proposedBody": "Hello Clara Oswald,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Requesting invoice receipt for last month annual renewal\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Brilliant Directories Support Overview",
+          "url": "https://support.brilliantdirectories.com/support/solutions",
+          "snippet": "Access comprehensive guides, video tutorials, and technical reference manuals.",
+          "score": 0.72,
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Brilliant Directories Support Overview).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T13:20:36.324Z",
+      "updatedAt": "2026-10-16T13:20:36.324Z"
+    },
+    "draft_mvazwp2p_ztaug": {
+      "id": "draft_mvazwp2p_ztaug",
+      "emailId": "eval_bill_002",
+      "category": "billing_and_payments",
+      "proposedBody": "Hello Arthur Dent,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"How to switch connected Stripe payment gateway account\":\n\nWebhooks can be configured under Developer Hub > Webhooks. Brilliant Directories supports outbound webhooks with HMAC SHA-256 signature verification.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Developer Hub: Webhooks & API Integration: https://support.brilliantdirectories.com/support/solutions/articles/12000089012-webhooks\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Developer Hub: Webhooks & API Integration",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000089012-webhooks",
+          "snippet": "Configure event-driven webhooks for member signups, billing updates, and form submissions in Developer Tools > Webhooks.",
+          "score": 0.83,
+          "section": "Developer Hub",
+          "images": []
+        }
+      ],
+      "supportingImages": [],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Developer Hub: Webhooks & API Integration).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T13:20:36.337Z",
+      "updatedAt": "2026-10-16T13:20:36.337Z"
+    },
+    "draft_mvb37a5o_2udg0": {
+      "id": "draft_mvb37a5o_2udg0",
+      "emailId": "email_mvb37a5i_spolq",
+      "category": "technical_support",
+      "proposedBody": "Hello Alex Rivera,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Setting up custom domain\":\n\nTo connect your live domain, navigate to Settings > Domain Manager in your admin dashboard. Enter your custom domain and point your DNS A Record to the Brilliant Directories server IP.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Guide 1. How to Connect a Live Domain Name: https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name\n\nYou can also reference the accompanying configuration screenshot:\n• Domain Manager wizard setup screen: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Guide 1. How to Connect a Live Domain Name",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+          "snippet": "The current Domain Manager guides the entire connection through up to four stages: Choose An Address, Check It, Point Domain, and Switch Over.",
+          "score": 0.88,
+          "section": "Domain Setup",
+          "images": [
+            {
+              "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+              "caption": "Domain Manager wizard setup screen"
+            }
+          ]
+        }
+      ],
+      "supportingImages": [
+        {
+          "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+          "caption": "Domain Manager wizard setup screen"
+        }
+      ],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Guide 1. How to Connect a Live Domain Name).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:52:49.071Z",
+      "updatedAt": "2026-10-16T14:52:49.071Z"
+    },
+    "draft_mvb38ev1_pfoiw": {
+      "id": "draft_mvb38ev1_pfoiw",
+      "emailId": "email_mvb38euy_4b4ae",
+      "category": "technical_support",
+      "proposedBody": "Hello Alex Rivera,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Setting up custom domain\":\n\nTo connect your live domain, navigate to Settings > Domain Manager in your admin dashboard. Enter your custom domain and point your DNS A Record to the Brilliant Directories server IP.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Guide 1. How to Connect a Live Domain Name: https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name\n\nYou can also reference the accompanying configuration screenshot:\n• Domain Manager wizard setup screen: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Guide 1. How to Connect a Live Domain Name",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+          "snippet": "The current Domain Manager guides the entire connection through up to four stages: Choose An Address, Check It, Point Domain, and Switch Over.",
+          "score": 0.88,
+          "section": "Domain Setup",
+          "images": [
+            {
+              "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+              "caption": "Domain Manager wizard setup screen"
+            }
+          ]
+        }
+      ],
+      "supportingImages": [
+        {
+          "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+          "caption": "Domain Manager wizard setup screen"
+        }
+      ],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Guide 1. How to Connect a Live Domain Name).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:53:41.821Z",
+      "updatedAt": "2026-10-16T14:53:41.821Z"
+    },
+    "draft_mvb3906t_ihayh": {
+      "id": "draft_mvb3906t_ihayh",
+      "emailId": "email_mvb3906q_kkivo",
+      "category": "technical_support",
+      "proposedBody": "Hello Alex Rivera,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Setting up custom domain\":\n\nTo connect your live domain, navigate to Settings > Domain Manager in your admin dashboard. Enter your custom domain and point your DNS A Record to the Brilliant Directories server IP.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Guide 1. How to Connect a Live Domain Name: https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name\n\nYou can also reference the accompanying configuration screenshot:\n• Domain Manager wizard setup screen: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Guide 1. How to Connect a Live Domain Name",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+          "snippet": "The current Domain Manager guides the entire connection through up to four stages: Choose An Address, Check It, Point Domain, and Switch Over.",
+          "score": 0.88,
+          "section": "Domain Setup",
+          "images": [
+            {
+              "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+              "caption": "Domain Manager wizard setup screen"
+            }
+          ]
+        }
+      ],
+      "supportingImages": [
+        {
+          "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+          "caption": "Domain Manager wizard setup screen"
+        }
+      ],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Guide 1. How to Connect a Live Domain Name).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:54:09.461Z",
+      "updatedAt": "2026-10-16T14:54:09.461Z"
+    },
+    "draft_mvb39hwr_zlw1l": {
+      "id": "draft_mvb39hwr_zlw1l",
+      "emailId": "email_mvb39hwo_k5buc",
+      "category": "technical_support",
+      "proposedBody": "Hello Alex Rivera,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Setting up custom domain\":\n\nTo connect your live domain, navigate to Settings > Domain Manager in your admin dashboard. Enter your custom domain and point your DNS A Record to the Brilliant Directories server IP.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Guide 1. How to Connect a Live Domain Name: https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name\n\nYou can also reference the accompanying configuration screenshot:\n• Domain Manager wizard setup screen: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Guide 1. How to Connect a Live Domain Name",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+          "snippet": "The current Domain Manager guides the entire connection through up to four stages: Choose An Address, Check It, Point Domain, and Switch Over.",
+          "score": 0.88,
+          "section": "Domain Setup",
+          "images": [
+            {
+              "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+              "caption": "Domain Manager wizard setup screen"
+            }
+          ]
+        }
+      ],
+      "supportingImages": [
+        {
+          "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+          "caption": "Domain Manager wizard setup screen"
+        }
+      ],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Guide 1. How to Connect a Live Domain Name).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:54:32.427Z",
+      "updatedAt": "2026-10-16T14:54:32.427Z"
+    },
+    "draft_mvb3admp_u7e3n": {
+      "id": "draft_mvb3admp_u7e3n",
+      "emailId": "email_mvb3admm_3gsw7",
+      "category": "technical_support",
+      "proposedBody": "Hello Alex Rivera,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Setting up custom domain\":\n\nTo connect your live domain, navigate to Settings > Domain Manager in your admin dashboard. Enter your custom domain and point your DNS A Record to the Brilliant Directories server IP.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Guide 1. How to Connect a Live Domain Name: https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name\n\nYou can also reference the accompanying configuration screenshot:\n• Domain Manager wizard setup screen: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Guide 1. How to Connect a Live Domain Name",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+          "snippet": "The current Domain Manager guides the entire connection through up to four stages: Choose An Address, Check It, Point Domain, and Switch Over.",
+          "score": 0.88,
+          "section": "Domain Setup",
+          "images": [
+            {
+              "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+              "caption": "Domain Manager wizard setup screen"
+            }
+          ]
+        }
+      ],
+      "supportingImages": [
+        {
+          "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+          "caption": "Domain Manager wizard setup screen"
+        }
+      ],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Guide 1. How to Connect a Live Domain Name).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:55:13.537Z",
+      "updatedAt": "2026-10-16T14:55:13.537Z"
+    },
+    "draft_mvb3bak1_joug6": {
+      "id": "draft_mvb3bak1_joug6",
+      "emailId": "email_mvb3bajy_2cmo1",
+      "category": "technical_support",
+      "proposedBody": "Hello Alex Rivera,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Setting up custom domain\":\n\nTo connect your live domain, navigate to Settings > Domain Manager in your admin dashboard. Enter your custom domain and point your DNS A Record to the Brilliant Directories server IP.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Guide 1. How to Connect a Live Domain Name: https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name\n\nYou can also reference the accompanying configuration screenshot:\n• Domain Manager wizard setup screen: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Guide 1. How to Connect a Live Domain Name",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+          "snippet": "The current Domain Manager guides the entire connection through up to four stages: Choose An Address, Check It, Point Domain, and Switch Over.",
+          "score": 0.88,
+          "section": "Domain Setup",
+          "images": [
+            {
+              "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+              "caption": "Domain Manager wizard setup screen"
+            }
+          ]
+        }
+      ],
+      "supportingImages": [
+        {
+          "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+          "caption": "Domain Manager wizard setup screen"
+        }
+      ],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Guide 1. How to Connect a Live Domain Name).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:55:56.209Z",
+      "updatedAt": "2026-10-16T14:55:56.209Z"
+    },
+    "draft_mvb3cbcj_st1qu": {
+      "id": "draft_mvb3cbcj_st1qu",
+      "emailId": "email_mvb3cbcg_zyzg6",
+      "category": "technical_support",
+      "proposedBody": "Hello Alex Rivera,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Setting up custom domain\":\n\nTo connect your live domain, navigate to Settings > Domain Manager in your admin dashboard. Enter your custom domain and point your DNS A Record to the Brilliant Directories server IP.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Guide 1. How to Connect a Live Domain Name: https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name\n\nYou can also reference the accompanying configuration screenshot:\n• Domain Manager wizard setup screen: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "supportingSources": [
+        {
+          "title": "Guide 1. How to Connect a Live Domain Name",
+          "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+          "snippet": "The current Domain Manager guides the entire connection through up to four stages: Choose An Address, Check It, Point Domain, and Switch Over.",
+          "score": 0.88,
+          "section": "Domain Setup",
+          "images": [
+            {
+              "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+              "caption": "Domain Manager wizard setup screen"
+            }
+          ]
+        }
+      ],
+      "supportingImages": [
+        {
+          "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+          "caption": "Domain Manager wizard setup screen"
+        }
+      ],
+      "internalExplanation": "Grounded in Brilliant Directories Solution Center documentation (Guide 1. How to Connect a Live Domain Name).",
+      "uncertaintyWarnings": [],
+      "humanReviewRequired": false,
+      "autoSendEligible": true,
+      "createdAt": "2026-10-16T14:56:43.891Z",
+      "updatedAt": "2026-10-16T14:56:43.891Z"
+    }
+  },
+  "reviews": [
+    {
+      "id": "decision_mvb01qpn_p7mk4",
+      "draftId": "draft_mvazwoz2_bn954",
+      "emailId": "eval_tech_001",
+      "category": "technical_support",
+      "action": "approve",
+      "previousDraft": "Hello Marcus Vance,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"SSL Certificate failing on custom domain directorypro.com\":\n\nTo connect your live domain, navigate to Settings > Domain Manager in your admin dashboard. Enter your custom domain and point your DNS A Record to the Brilliant Directories server IP.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Guide 1. How to Connect a Live Domain Name: https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name\n\nYou can also reference the accompanying configuration screenshot:\n• Domain Manager wizard setup screen: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "finalDraft": "Hello Marcus Vance,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"SSL Certificate failing on custom domain directorypro.com\":\n\nTo connect your live domain, navigate to Settings > Domain Manager in your admin dashboard. Enter your custom domain and point your DNS A Record to the Brilliant Directories server IP.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Guide 1. How to Connect a Live Domain Name: https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name\n\nYou can also reference the accompanying configuration screenshot:\n• Domain Manager wizard setup screen: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "reviewerName": "Consultant Dave",
+      "timestamp": "2026-10-16T13:24:31.746Z"
+    },
+    {
+      "id": "decision_mvb02g8h_vt32f",
+      "draftId": "draft_mvazwp05_lwxlm",
+      "emailId": "eval_tech_003",
+      "category": "technical_support",
+      "action": "approve",
+      "previousDraft": "Hello Dave Miller,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Member search results page displaying 404 error\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "finalDraft": "Hello Dave Miller,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Member search results page displaying 404 error\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "reviewerName": "Consultant Dave",
+      "timestamp": "2026-10-16T13:25:04.828Z"
+    },
+    {
+      "id": "decision_mvb2fn35_1i6gn",
+      "draftId": "draft_mvazwp0u_uzhz2",
+      "emailId": "eval_tech_005",
+      "category": "technical_support",
+      "action": "approve",
+      "previousDraft": "Hello Oliver Twist,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Images failing to upload on member profile photo upload\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "finalDraft": "Hello Oliver Twist,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Images failing to upload on member profile photo upload\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "reviewerName": "Consultant Dave",
+      "timestamp": "2026-10-16T14:31:19.466Z"
+    }
+  ],
+  "sentLog": [
+    {
+      "emailId": "eval_tech_001",
+      "draftId": "draft_mvazwoz2_bn954",
+      "recipient": "marcus.vance@example.org",
+      "subject": "Re: SSL Certificate failing on custom domain directorypro.com",
+      "body": "Hello Marcus Vance,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"SSL Certificate failing on custom domain directorypro.com\":\n\nTo connect your live domain, navigate to Settings > Domain Manager in your admin dashboard. Enter your custom domain and point your DNS A Record to the Brilliant Directories server IP.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Guide 1. How to Connect a Live Domain Name: https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name\n\nYou can also reference the accompanying configuration screenshot:\n• Domain Manager wizard setup screen: https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "sentAt": "2026-10-16T13:24:31.742Z",
+      "simulated": true,
+      "provider": "SimulatedSender"
+    },
+    {
+      "emailId": "eval_tech_003",
+      "draftId": "draft_mvazwp05_lwxlm",
+      "recipient": "dave.miller@techhub.net",
+      "subject": "Re: Member search results page displaying 404 error",
+      "body": "Hello Dave Miller,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Member search results page displaying 404 error\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "sentAt": "2026-10-16T13:25:04.822Z",
+      "simulated": true,
+      "provider": "SimulatedSender"
+    },
+    {
+      "emailId": "eval_tech_005",
+      "draftId": "draft_mvazwp0u_uzhz2",
+      "recipient": "oliver.twist@citydirectory.co.uk",
+      "subject": "Re: Images failing to upload on member profile photo upload",
+      "body": "Hello Oliver Twist,\n\nThank you for reaching out to Brilliant Directories Support.\n\nRegarding your inquiry about \"Images failing to upload on member profile photo upload\":\n\nGeneral Solution Center guidance is available in your Brilliant Directories admin dashboard under Settings and Toolbox.\n\nFor detailed documentation and step-by-step guidance, please review the official Solution Center guide:\n• Brilliant Directories Support Overview: https://support.brilliantdirectories.com/support/solutions\n\nIf you need any further assistance configuring your directory, please let us know.\n\nBest regards,\nBrilliant Directories Technical Support\nBrilliant Directories Support & Technical Consulting",
+      "sentAt": "2026-10-16T14:31:19.461Z",
+      "simulated": true,
+      "provider": "SimulatedSender"
+    }
+  ]
+}

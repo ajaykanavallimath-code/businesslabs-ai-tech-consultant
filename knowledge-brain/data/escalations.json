@@ -1,0 +1,516 @@
+{
+  "esc_a94111fe": {
+    "id": "esc_a94111fe",
+    "query": "How to connect a domain?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "resolved",
+    "created_at": "2026-10-16T10:00:36.987931",
+    "resolved_at": "2026-10-16T10:02:32.018201",
+    "resolution": "Navigate to Settings > Domain Manager and point your A record to the directory IP.",
+    "expert_name": "AI Tech Consultant"
+  },
+  "esc_73a1c57e": {
+    "id": "esc_73a1c57e",
+    "query": "How to connect a domain name",
+    "reason": "Anthropic API key is not configured. Cannot perform Claude synthesis.",
+    "retrieved_sources": [
+      {
+        "title": "Guide 1. How to Connect a Live Domain Name",
+        "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+        "section": "General Overview",
+        "snippet": "Guide 1. How to Connect a Live Domain Name Connect a Live Domain Name A Brilliant Directories website begins on a free directoryup.com address. A domain owned by the website operator can be connected whenever the site is ready to use its public address. The current Domain Manager guides the entire connection through up to four stages: Choose An Address , Check It , Point Domain , and Switch Over . It checks the address before any change is made and displays the DNS record required for the selected domain. Example on a free directoryup.com address. Additional tabs appear when a custom domain and its services are available. Connection Choices Use a domain from my Cloudflare account \u2014 when this option is available, select a domain from the connected Cloudflare account and follow the guided setup. A domain name I own \u2014 connect a domain or true subdomain by adding the record shown by Domain Manager. A free address from us \u2014 choose a new directoryup.com address. For the complete connection instructions, DNS requirements, and post-change checks, see How to Connect a Domain to a Brilliant Directories Website . A root domain such as example.com is always connected as www.example.com , and the record for the root itself depends on the company that runs the domain's DNS; see Point the root domain .",
+        "score": 0.5763,
+        "images": [
+          {
+            "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+            "caption": "Domain Manager on a free directoryup.com address, with Connect my domain name marked",
+            "context": "Example on a free directoryup.com address. Additional tabs appear when a custom domain and its services are available."
+          }
+        ]
+      }
+    ],
+    "status": "pending",
+    "created_at": "2026-10-16T10:01:41.695509",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_5d98bc58": {
+    "id": "esc_5d98bc58",
+    "query": "How to connect a domain name",
+    "reason": "Anthropic API key is not configured. Cannot perform Claude synthesis.",
+    "retrieved_sources": [
+      {
+        "title": "Guide 1. How to Connect a Live Domain Name",
+        "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+        "section": "General Overview",
+        "snippet": "Guide 1. How to Connect a Live Domain Name Connect a Live Domain Name A Brilliant Directories website begins on a free directoryup.com address. A domain owned by the website operator can be connected whenever the site is ready to use its public address. The current Domain Manager guides the entire connection through up to four stages: Choose An Address , Check It , Point Domain , and Switch Over . It checks the address before any change is made and displays the DNS record required for the selected domain. Example on a free directoryup.com address. Additional tabs appear when a custom domain and its services are available. Connection Choices Use a domain from my Cloudflare account \u2014 when this option is available, select a domain from the connected Cloudflare account and follow the guided setup. A domain name I own \u2014 connect a domain or true subdomain by adding the record shown by Domain Manager. A free address from us \u2014 choose a new directoryup.com address. For the complete connection instructions, DNS requirements, and post-change checks, see How to Connect a Domain to a Brilliant Directories Website . A root domain such as example.com is always connected as www.example.com , and the record for the root itself depends on the company that runs the domain's DNS; see Point the root domain .",
+        "score": 0.5763,
+        "images": [
+          {
+            "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+            "caption": "Domain Manager on a free directoryup.com address, with Connect my domain name marked",
+            "context": "Example on a free directoryup.com address. Additional tabs appear when a custom domain and its services are available."
+          }
+        ]
+      }
+    ],
+    "status": "pending",
+    "created_at": "2026-10-16T10:24:55.399213",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_4694fcff": {
+    "id": "esc_4694fcff",
+    "query": "string",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (1.0).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T12:07:03.691912",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_32505989": {
+    "id": "esc_32505989",
+    "query": "How can I manage my website settings?",
+    "reason": "Generation error: TypeError",
+    "retrieved_sources": [
+      {
+        "title": "Knowledge base",
+        "url": "https://support.brilliantdirectories.com/support/solutions",
+        "section": "Section: Finance",
+        "snippet": "What Do You Need Help With? Get Started Here Quick Setup Guides 9 Using The Support Center 6 Changelog - Software Updates 634 Common Questions & Troubleshooting 36\n\nSection: Dashboard Overview Dashboard Links & Modules 23 Manage Add-Ons 1 Refresh Live Website 1 Install New Updates 45\n\nSection: My Members Search Members 19 Member Categories 10 Import Members 5 Smart List 3\n\nSection: My Content Web Page Builder 33 Manage Posts 20 Edit Post Settings 19 Media Manager 7 Additional Tips & Tutorials 5 SEO Templates 14\n\nSection: Interactions Member Leads 16 Lead Module FAQ 5 Member Reviews 7\n\nSection: Finance General Billing 18 Membership Plans 24 Transaction History 1 Search Subscriptions 1 Payment Settings 16 Manage Offers 1",
+        "score": 0.4049,
+        "images": []
+      },
+      {
+        "title": "Knowledge base",
+        "url": "https://support.brilliantdirectories.com/support/solutions",
+        "section": "Section: Developer Hub",
+        "snippet": ": Settings General Settings 21 Design Settings 66 Domain Manager 13 Admin Accounts 3 Text Labels 3 Advanced Settings 29 Google Maps Troubleshooting 10\n\nSection: Developer Hub Image Settings 6 301 Redirects 2 HTACCESS File 1 cPanel Dashboard 10 Robots File 3 MYSQL Database 7 Webhooks 4 Generate API Key - API Documentation 108 Additional Tips & Tutorials 44 HTML Code Snippets from Standard BD Website Theme 5 Quick FAQ 17 No-Code API Workflows (Zapier, Pabbly & Others) 14 Additional Services Clone My Website 1 Email Limit Boost 1 Enhanced Hosting Bundle 1 Instant Business Data 1 Premium Hosting Solutions 1 Website License Transfer 1 Reset My Website 1 White Labeling Your Website 1 Add-On Documentation VIP Add-Ons Club 1 10GB of additional Bandwidth & Storage Boost 2 14-Day Website Backups 1 800+ Google Fonts Pack 1 100,000 Member Limit Boost 1 AdBlock Detector 1 Admin Activity Tracking 1 Admin Role Permissions 1 Advanced Post Moderation 1 Automatic Lead Matching 7 Auto-Recurring Events 1 Billing Reminder Emails 3 Block Traffic by Country 1 Bookmark Counter 1 Bookmark My Favorites 1 ChatGPT Content Creator 1 Claimable Business Listings 1 Click to Call Member 1 Community Comments 1 Downloadable PDF Invoices 1 Detect Visitor Locations 1 Dynamic Category Filtering 1 Easy Coupon Codes 1 Essential Business Categories 1 Europe's General Data Protection Regulation (GDPR) Compliance 2 Expanded Keyword Search 1 Export Member Data 2 Express Member Registration 1 Feature Members on Homepage 1 Featured Blog Article Slider 2 File Uploads for Forms 1 Filter by Star Rating 1 Free Trial Period 1 Global Website Search 1 Grid View Search Results 1 Google Map Search Results 1 Google Search Assist 1 Google Sitemap Generator 1 Google Website Translator 1 Homepage Background Slider 1 Homepage Clickable Maps Pack 1 Highlight Member Results 1 Hidden Member Profiles 1 Insta-Load Search Results 1 Keywords for Categories 1 Lead Price by Category 1 Limit Posts Per Member 1 Limit Max Photos per Album 1 Managed SSL Security 2 Member Credits System 2 Members-Only Content 1 Member Profile Analytics 3 Member Profile Badges 1 Multi-Member Manager 1 Multi-Location Listing 2 One-Click Facebook Login 2 One-Click Google Login 3 Pay Per Post 1 Predictive Keyword Search 2 Profile Cover Photo 1 Photo Gallery Previewer 1 Pin Featured Posts 1 Personal Post Feed 1 Post Affiliate Pro Integration 1 Premium Content Blocks 1 Private Member Chat 2 RSS Feed for Posts 1 Reviews with Photos 1 Report This Page 1 Reply to Member Reviews 1 Sell Digital Products & Services 1 Side-by-Side Pricing Plans 6 Simple Events Calendar 1 Spam Form Protector 1 Star Ratings For Posts 1 Stock Photo Library For Posts 1 Streaming Post Carousel Slider 1 Tax and VAT Manager 1 Website Announcement Bar 1",
+        "score": 0.3847,
+        "images": []
+      },
+      {
+        "title": "Guide 1. How to Connect a Live Domain Name",
+        "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+        "section": "General Overview",
+        "snippet": "Guide 1. How to Connect a Live Domain Name Connect a Live Domain Name A Brilliant Directories website begins on a free directoryup.com address. A domain owned by the website operator can be connected whenever the site is ready to use its public address. The current Domain Manager guides the entire connection through up to four stages: Choose An Address , Check It , Point Domain , and Switch Over . It checks the address before any change is made and displays the DNS record required for the selected domain. Example on a free directoryup.com address. Additional tabs appear when a custom domain and its services are available. Connection Choices Use a domain from my Cloudflare account \u2014 when this option is available, select a domain from the connected Cloudflare account and follow the guided setup. A domain name I own \u2014 connect a domain or true subdomain by adding the record shown by Domain Manager. A free address from us \u2014 choose a new directoryup.com address. For the complete connection instructions, DNS requirements, and post-change checks, see How to Connect a Domain to a Brilliant Directories Website . A root domain such as example.com is always connected as www.example.com , and the record for the root itself depends on the company that runs the domain's DNS; see Point the root domain .",
+        "score": 0.2267,
+        "images": [
+          {
+            "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+            "caption": "Domain Manager on a free directoryup.com address, with Connect my domain name marked",
+            "context": "Example on a free directoryup.com address. Additional tabs appear when a custom domain and its services are available."
+          }
+        ]
+      }
+    ],
+    "status": "pending",
+    "created_at": "2026-10-16T12:08:08.382583",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_95197afd": {
+    "id": "esc_95197afd",
+    "query": "How can I manage my website settings?",
+    "reason": "Generation error: TypeError",
+    "retrieved_sources": [
+      {
+        "title": "Knowledge base",
+        "url": "https://support.brilliantdirectories.com/support/solutions",
+        "section": "Section: Finance",
+        "snippet": "What Do You Need Help With? Get Started Here Quick Setup Guides 9 Using The Support Center 6 Changelog - Software Updates 634 Common Questions & Troubleshooting 36\n\nSection: Dashboard Overview Dashboard Links & Modules 23 Manage Add-Ons 1 Refresh Live Website 1 Install New Updates 45\n\nSection: My Members Search Members 19 Member Categories 10 Import Members 5 Smart List 3\n\nSection: My Content Web Page Builder 33 Manage Posts 20 Edit Post Settings 19 Media Manager 7 Additional Tips & Tutorials 5 SEO Templates 14\n\nSection: Interactions Member Leads 16 Lead Module FAQ 5 Member Reviews 7\n\nSection: Finance General Billing 18 Membership Plans 24 Transaction History 1 Search Subscriptions 1 Payment Settings 16 Manage Offers 1",
+        "score": 0.4049,
+        "images": []
+      },
+      {
+        "title": "Knowledge base",
+        "url": "https://support.brilliantdirectories.com/support/solutions",
+        "section": "Section: Developer Hub",
+        "snippet": ": Settings General Settings 21 Design Settings 66 Domain Manager 13 Admin Accounts 3 Text Labels 3 Advanced Settings 29 Google Maps Troubleshooting 10\n\nSection: Developer Hub Image Settings 6 301 Redirects 2 HTACCESS File 1 cPanel Dashboard 10 Robots File 3 MYSQL Database 7 Webhooks 4 Generate API Key - API Documentation 108 Additional Tips & Tutorials 44 HTML Code Snippets from Standard BD Website Theme 5 Quick FAQ 17 No-Code API Workflows (Zapier, Pabbly & Others) 14 Additional Services Clone My Website 1 Email Limit Boost 1 Enhanced Hosting Bundle 1 Instant Business Data 1 Premium Hosting Solutions 1 Website License Transfer 1 Reset My Website 1 White Labeling Your Website 1 Add-On Documentation VIP Add-Ons Club 1 10GB of additional Bandwidth & Storage Boost 2 14-Day Website Backups 1 800+ Google Fonts Pack 1 100,000 Member Limit Boost 1 AdBlock Detector 1 Admin Activity Tracking 1 Admin Role Permissions 1 Advanced Post Moderation 1 Automatic Lead Matching 7 Auto-Recurring Events 1 Billing Reminder Emails 3 Block Traffic by Country 1 Bookmark Counter 1 Bookmark My Favorites 1 ChatGPT Content Creator 1 Claimable Business Listings 1 Click to Call Member 1 Community Comments 1 Downloadable PDF Invoices 1 Detect Visitor Locations 1 Dynamic Category Filtering 1 Easy Coupon Codes 1 Essential Business Categories 1 Europe's General Data Protection Regulation (GDPR) Compliance 2 Expanded Keyword Search 1 Export Member Data 2 Express Member Registration 1 Feature Members on Homepage 1 Featured Blog Article Slider 2 File Uploads for Forms 1 Filter by Star Rating 1 Free Trial Period 1 Global Website Search 1 Grid View Search Results 1 Google Map Search Results 1 Google Search Assist 1 Google Sitemap Generator 1 Google Website Translator 1 Homepage Background Slider 1 Homepage Clickable Maps Pack 1 Highlight Member Results 1 Hidden Member Profiles 1 Insta-Load Search Results 1 Keywords for Categories 1 Lead Price by Category 1 Limit Posts Per Member 1 Limit Max Photos per Album 1 Managed SSL Security 2 Member Credits System 2 Members-Only Content 1 Member Profile Analytics 3 Member Profile Badges 1 Multi-Member Manager 1 Multi-Location Listing 2 One-Click Facebook Login 2 One-Click Google Login 3 Pay Per Post 1 Predictive Keyword Search 2 Profile Cover Photo 1 Photo Gallery Previewer 1 Pin Featured Posts 1 Personal Post Feed 1 Post Affiliate Pro Integration 1 Premium Content Blocks 1 Private Member Chat 2 RSS Feed for Posts 1 Reviews with Photos 1 Report This Page 1 Reply to Member Reviews 1 Sell Digital Products & Services 1 Side-by-Side Pricing Plans 6 Simple Events Calendar 1 Spam Form Protector 1 Star Ratings For Posts 1 Stock Photo Library For Posts 1 Streaming Post Carousel Slider 1 Tax and VAT Manager 1 Website Announcement Bar 1",
+        "score": 0.3847,
+        "images": []
+      },
+      {
+        "title": "Guide 1. How to Connect a Live Domain Name",
+        "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+        "section": "General Overview",
+        "snippet": "Guide 1. How to Connect a Live Domain Name Connect a Live Domain Name A Brilliant Directories website begins on a free directoryup.com address. A domain owned by the website operator can be connected whenever the site is ready to use its public address. The current Domain Manager guides the entire connection through up to four stages: Choose An Address , Check It , Point Domain , and Switch Over . It checks the address before any change is made and displays the DNS record required for the selected domain. Example on a free directoryup.com address. Additional tabs appear when a custom domain and its services are available. Connection Choices Use a domain from my Cloudflare account \u2014 when this option is available, select a domain from the connected Cloudflare account and follow the guided setup. A domain name I own \u2014 connect a domain or true subdomain by adding the record shown by Domain Manager. A free address from us \u2014 choose a new directoryup.com address. For the complete connection instructions, DNS requirements, and post-change checks, see How to Connect a Domain to a Brilliant Directories Website . A root domain such as example.com is always connected as www.example.com , and the record for the root itself depends on the company that runs the domain's DNS; see Point the root domain .",
+        "score": 0.2267,
+        "images": [
+          {
+            "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+            "caption": "Domain Manager on a free directoryup.com address, with Connect my domain name marked",
+            "context": "Example on a free directoryup.com address. Additional tabs appear when a custom domain and its services are available."
+          }
+        ]
+      }
+    ],
+    "status": "pending",
+    "created_at": "2026-10-16T12:08:33.088949",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_1ee49719": {
+    "id": "esc_1ee49719",
+    "query": "How to connect Stripe payment gateway?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:20:05.402058",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_706d9bae": {
+    "id": "esc_706d9bae",
+    "query": "How to connect Stripe payment gateway?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:20:39.161330",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_cd1f6938": {
+    "id": "esc_cd1f6938",
+    "query": "How to connect Stripe payment gateway?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:20:55.103515",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_8c9fce65": {
+    "id": "esc_8c9fce65",
+    "query": "How to enable quantum teleportation on Brilliant Directories?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:20:55.467410",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_fd9b2603": {
+    "id": "esc_fd9b2603",
+    "query": "Is this feature supported natively in Brilliant Directories: Stripe recurring payment subscriptions for members?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:21:16.541045",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_66b1cb48": {
+    "id": "esc_66b1cb48",
+    "query": "Is this feature supported natively in Brilliant Directories: Lawyer subscription plans with recurring Stripe payments?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:52:05.627993",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_b8bc08f7": {
+    "id": "esc_b8bc08f7",
+    "query": "How to connect custom domain?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:52:05.991293",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_e130ba51": {
+    "id": "esc_e130ba51",
+    "query": "HIPAA medical records encryption on public directories",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:52:06.331596",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_d190bb6a": {
+    "id": "esc_d190bb6a",
+    "query": "Is this feature supported natively in Brilliant Directories: Lawyer subscription plans with recurring Stripe payments?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:52:48.305585",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_66d06c70": {
+    "id": "esc_66d06c70",
+    "query": "How to connect custom domain?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:52:48.688185",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_c5ef1597": {
+    "id": "esc_c5ef1597",
+    "query": "HIPAA medical records encryption on public directories",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:52:49.055832",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_31f6027c": {
+    "id": "esc_31f6027c",
+    "query": "Is this feature supported natively in Brilliant Directories: Lawyer subscription plans with recurring Stripe payments?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:53:40.680137",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_0ad717c7": {
+    "id": "esc_0ad717c7",
+    "query": "How to connect custom domain?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:53:41.058349",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_bf725bbe": {
+    "id": "esc_bf725bbe",
+    "query": "HIPAA medical records encryption on public directories",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:53:41.811130",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_772bf2d5": {
+    "id": "esc_772bf2d5",
+    "query": "Is this feature supported natively in Brilliant Directories: Lawyer subscription plans with recurring Stripe payments?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:54:08.713461",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_94f73394": {
+    "id": "esc_94f73394",
+    "query": "How to connect custom domain?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:54:09.078181",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_99d55a61": {
+    "id": "esc_99d55a61",
+    "query": "HIPAA medical records encryption on public directories",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:54:09.448601",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_924890fa": {
+    "id": "esc_924890fa",
+    "query": "Is this feature supported natively in Brilliant Directories: Lawyer subscription plans with recurring Stripe payments?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:54:31.380253",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_498d0d91": {
+    "id": "esc_498d0d91",
+    "query": "How to connect custom domain?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:54:31.749341",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_30864d9f": {
+    "id": "esc_30864d9f",
+    "query": "HIPAA medical records encryption on public directories",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:54:32.419115",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_2c569bdd": {
+    "id": "esc_2c569bdd",
+    "query": "Is this feature supported natively in Brilliant Directories: Lawyer subscription plans with recurring Stripe payments?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:55:12.437323",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_8d55d5e3": {
+    "id": "esc_8d55d5e3",
+    "query": "How to connect custom domain?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:55:13.020797",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_3b2750bd": {
+    "id": "esc_3b2750bd",
+    "query": "HIPAA medical records encryption on public directories",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:55:13.527249",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_0d687d9c": {
+    "id": "esc_0d687d9c",
+    "query": "Is this feature supported natively in Brilliant Directories: Lawyer subscription plans with recurring Stripe payments?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:55:55.437171",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_60d40c5d": {
+    "id": "esc_60d40c5d",
+    "query": "How to connect custom domain?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:55:55.824178",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_2e2c33d3": {
+    "id": "esc_2e2c33d3",
+    "query": "HIPAA medical records encryption on public directories",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:55:56.198114",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_56448e3a": {
+    "id": "esc_56448e3a",
+    "query": "Is this feature supported natively in Brilliant Directories: Lawyer subscription plans with recurring Stripe payments?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:56:43.145470",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_9bbfba53": {
+    "id": "esc_9bbfba53",
+    "query": "How to connect custom domain?",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:56:43.505598",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_d1f4190f": {
+    "id": "esc_d1f4190f",
+    "query": "HIPAA medical records encryption on public directories",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.6).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T14:56:43.882468",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_20960c58": {
+    "id": "esc_20960c58",
+    "query": "how to connect live coustum domine",
+    "reason": "No Solution Center documentation found matching query above similarity threshold (0.5).",
+    "retrieved_sources": [],
+    "status": "pending",
+    "created_at": "2026-10-16T15:00:26.185649",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  },
+  "esc_4dcd3b47": {
+    "id": "esc_4dcd3b47",
+    "query": "How to connect a live custom domain name?",
+    "reason": "Generation error: TypeError",
+    "retrieved_sources": [
+      {
+        "title": "Guide 1. How to Connect a Live Domain Name",
+        "url": "https://support.brilliantdirectories.com/support/solutions/articles/12000065940-guide-1-how-to-connect-a-live-domain-name",
+        "section": "General Overview",
+        "snippet": "Guide 1. How to Connect a Live Domain Name Connect a Live Domain Name A Brilliant Directories website begins on a free directoryup.com address. A domain owned by the website operator can be connected whenever the site is ready to use its public address. The current Domain Manager guides the entire connection through up to four stages: Choose An Address , Check It , Point Domain , and Switch Over . It checks the address before any change is made and displays the DNS record required for the selected domain. Example on a free directoryup.com address. Additional tabs appear when a custom domain and its services are available. Connection Choices Use a domain from my Cloudflare account \u2014 when this option is available, select a domain from the connected Cloudflare account and follow the guided setup. A domain name I own \u2014 connect a domain or true subdomain by adding the record shown by Domain Manager. A free address from us \u2014 choose a new directoryup.com address. For the complete connection instructions, DNS requirements, and post-change checks, see How to Connect a Domain to a Brilliant Directories Website . A root domain such as example.com is always connected as www.example.com , and the record for the root itself depends on the company that runs the domain's DNS; see Point the root domain .",
+        "score": 0.6527,
+        "images": [
+          {
+            "url": "https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/12185668534/original/woU8C814_2yX08ziBJcQcO-54kLJi2FC_g.png?1790182288",
+            "caption": "Domain Manager on a free directoryup.com address, with Connect my domain name marked",
+            "context": "Example on a free directoryup.com address. Additional tabs appear when a custom domain and its services are available."
+          }
+        ]
+      }
+    ],
+    "status": "pending",
+    "created_at": "2026-10-16T15:00:33.616381",
+    "resolved_at": null,
+    "resolution": null,
+    "expert_name": null
+  }
+}

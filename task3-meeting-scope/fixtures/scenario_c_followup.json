@@ -1,0 +1,9 @@
+{
+  "scenario_id": "SCENARIO_C",
+  "project_id": "PRJ-LEGAL-01",
+  "title": "Acme Legal Scope Refinement Follow-up Meeting",
+  "client_name": "Acme Legal Services LLC",
+  "meeting_type": "follow_up",
+  "description": "Follow-up meeting modifying requirements, clarifying review workflows, adding Zapier integration, and introducing an out-of-scope native mobile app request.",
+  "transcript": "Consultant: Sarah, great to connect again. We're reviewing the v1.0 scope for Acme Legal Directory.\nSarah (Client): Thanks! We reviewed the initial scope with our partners. We have a few key updates.\nFirst, regarding attorney member reviews: we decided to cancel member reviews for the phase 1 launch. We want to drop public star ratings entirely for now so we don't need the review approval workflow.\nSecond, for Stripe payments: instead of just US dollars, we now need multi-currency billing in USD, CAD, and GBP with custom PDF invoice generation for firm accounting.\nThird, we want to add an automated lead capture webhook to Zapier and HubSpot so every time a new lawyer signs up, their data is piped immediately to our CRM.\nFourth, our marketing director asked if we can also get a native mobile app published on the Apple App Store and Google Play Store within this same budget.\nConsultant: Got it. Dropping reviews reduces scope, while multi-currency and Zapier webhooks add implementation hours. However, a native mobile app for app stores is out of scope for the Brilliant Directories web platform and would require a dedicated mobile build.\nSarah (Client): Makes sense. Let's update the scope version, show the revised hours and net delta, and present it for our leadership approval."
+}

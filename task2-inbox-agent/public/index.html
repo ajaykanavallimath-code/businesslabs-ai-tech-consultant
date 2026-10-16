@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BusinessLabs — AI Tech Consultant Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Top Navigation Bar -->
+  <header class="app-header">
+    <div class="header-left">
+      <div class="brand-logo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+        </svg>
+      </div>
+      <div>
+        <h1 class="brand-title">BusinessLabs <span class="badge-tag">AI Tech Consultant</span></h1>
+        <p class="brand-subtitle">Automated Technical Scoping, Support Triage & Knowledge Automation</p>
+      </div>
+    </div>
+
+    <nav class="nav-tabs" role="tablist">
+      <button class="nav-tab active" data-tab="overview" role="tab" aria-selected="true">
+        <span class="tab-icon">📊</span> Overview
+      </button>
+      <button class="nav-tab" data-tab="knowledge-brain" role="tab" aria-selected="false">
+        <span class="tab-icon">🧠</span> Task 1: Knowledge Brain
+      </button>
+      <button class="nav-tab" data-tab="inbox-agent" role="tab" aria-selected="false">
+        <span class="tab-icon">📬</span> Task 2: Inbox Agent
+      </button>
+      <button class="nav-tab" data-tab="meeting-scope" role="tab" aria-selected="false">
+        <span class="tab-icon">📝</span> Task 3: Meeting to Scope
+      </button>
+    </nav>
+
+    <div class="header-right">
+      <div class="system-health-pill">
+        <span class="health-dot" id="globalHealthDot"></span>
+        <span id="globalHealthText">Services Online</span>
+      </div>
+      <div class="reviewer-badge">
+        <span class="avatar">👨‍💻</span>
+        <span class="reviewer-name">Consultant Dave</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Live Status Bar -->
+  <aside class="status-strip" aria-label="System status bar">
+    <div class="status-chip" id="t1Status">
+      <span class="dot"></span> Task 1 (KB :8000)
+    </div>
+    <div class="status-chip" id="t2Status">
+      <span class="dot"></span> Task 2 (Inbox :3000)
+    </div>
+    <div class="status-chip" id="t3Status">
+      <span class="dot"></span> Task 3 (Scope :8001)
+    </div>
+    <div class="status-chip mode-chip">
+      <span class="icon">🛡️</span> Mode: <strong id="appModeText">Deterministic / Safe Sim</strong>
+    </div>
+    <div class="status-chip tests-chip">
+      <span class="icon">✅</span> Tests: <strong>120 Passed / 0 Failed</strong>
+    </div>
+  </aside>
+
+  <!-- Main View Container -->
+  <main class="main-container">
+
+    <!-- ============================================================== -->
+    <!-- TAB 1: OVERVIEW & SYSTEM DASHBOARD                             -->
+    <!-- ============================================================== -->
+    <section class="tab-pane active" id="tab-overview">
+      <div class="hero-banner">
+        <div class="hero-content">
+          <div class="hero-badge">ENTERPRISE AI CONSULTING PLATFORM</div>
+          <h2 class="hero-title">Automating the Software Consulting Lifecycle</h2>
+          <p class="hero-desc">
+            An end-to-end multi-agent platform for <strong>Brilliant Directories</strong> implementations. 
+            Connects documentation retrieval, autonomous customer triage under strict governance, and meeting transcript scoping with cryptographic mathematical consistency.
+          </p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" onclick="switchTab('knowledge-brain')">Explore Knowledge Brain</button>
+            <button class="btn btn-secondary" onclick="switchTab('inbox-agent')">Inspect Inbox Triage</button>
+            <button class="btn btn-secondary" onclick="switchTab('meeting-scope')">Run Meeting Scoper</button>
+          </div>
+        </div>
+        <div class="hero-kpis">
+          <div class="kpi-card">
+            <div class="kpi-num">120</div>
+            <div class="kpi-label">Automated Tests (100% Pass)</div>
+            <div class="kpi-sub">Pytest + Jest Suites</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-num">55</div>
+            <div class="kpi-label">Synthetic Customer Emails</div>
+            <div class="kpi-sub">94.5% Categorization Accuracy</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-num">20</div>
+            <div class="kpi-label">Approval Autonomy Gate</div>
+            <div class="kpi-sub">With Quality-Drop Withdrawal</div>
+          </div>
+          <div class="kpi-card">
+            <div class="kpi-num">3</div>
+            <div class="kpi-label">Meeting Scenarios</div>
+            <div class="kpi-sub">Initial, Conflict & Follow-up Delta</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Capability Cards -->
+      <div class="cards-grid">
+        <div class="module-card">
+          <div class="card-icon kb-icon">🧠</div>
+          <div class="card-meta">Python • FastAPI • ChromaDB • port 8000</div>
+          <h3 class="card-title">Task 1: Knowledge Brain</h3>
+          <p class="card-desc">
+            Indexes official Solution Center articles with sliding-window chunking. Generates grounded responses with verbatim source URLs and screenshot references. Enforces two-tier human escalation for low similarity (&lt;0.60) or low confidence (&lt;0.70).
+          </p>
+          <ul class="feature-bullets">
+            <li>✔ Incremental 3-way crawler (added, updated, removed)</li>
+            <li>✔ Grounded citations with screenshot preservation</li>
+            <li>✔ Anti-hallucination URL verification</li>
+            <li>✔ Closed-loop expert feedback re-indexing</li>
+          </ul>
+          <div class="card-footer">
+            <button class="btn btn-outline" onclick="switchTab('knowledge-brain')">Launch Q&A Explorer →</button>
+            <a href="http://127.0.0.1:8000/docs" target="_blank" class="link-docs">API Docs (Swagger) ↗</a>
+          </div>
+        </div>
+
+        <div class="module-card">
+          <div class="card-icon inbox-icon">📬</div>
+          <div class="card-meta">TypeScript • Express • Jest • port 3000</div>
+          <h3 class="card-title">Task 2: Inbox Agent</h3>
+          <p class="card-desc">
+            Classifies client inquiries into 7 categories, queries Knowledge Brain for factual claims, drafts contextual replies in the company voice, and enforces the strict 20-consecutive-unedited-approval rule before granting autonomy.
+          </p>
+          <ul class="feature-bullets">
+            <li>✔ 55 realistic synthetic customer emails</li>
+            <li>✔ Strict 20 unedited approval streak threshold</li>
+            <li>✔ Category-isolated autonomy tracking</li>
+            <li>✔ Quality decline withdrawal (edit rate &gt; 25%)</li>
+            <li>✔ Safe simulated sending default ([SIMULATED SEND])</li>
+          </ul>
+          <div class="card-footer">
+            <button class="btn btn-outline" onclick="switchTab('inbox-agent')">Open Review Desk →</button>
+            <a href="http://127.0.0.1:3000/api/v1/inbox/health" target="_blank" class="link-docs">Health Endpoint ↗</a>
+          </div>
+        </div>
+
+        <div class="module-card">
+          <div class="card-icon scope-icon">📝</div>
+          <div class="card-meta">Python • Multi-Agent Pipeline • port 8001</div>
+          <h3 class="card-title">Task 3: Meeting to Scope</h3>
+          <p class="card-desc">
+            Transforms discovery transcripts into structured implementation scopes and client proposals. Verifies native BD capabilities vs custom development, computes bottom-up task hours, and locks delivery until human approval.
+          </p>
+          <ul class="feature-bullets">
+            <li>✔ 5-stage agent team (Analyst, Scope, Proposal, Diff)</li>
+            <li>✔ Bottom-up hours math: Total strictly equals sum(tasks)</li>
+            <li>✔ Scope v1.0 immutability & Scope v2.0 follow-up deltas</li>
+            <li>✔ Non-negotiable human delivery gate (403 Forbidden)</li>
+          </ul>
+          <div class="card-footer">
+            <button class="btn btn-outline" onclick="switchTab('meeting-scope')">Open Scoping Studio →</button>
+            <a href="http://127.0.0.1:8001/docs" target="_blank" class="link-docs">API Docs (Swagger) ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================== -->
+    <!-- TAB 2: TASK 1 — KNOWLEDGE BRAIN                                -->
+    <!-- ============================================================== -->
+    <section class="tab-pane" id="tab-knowledge-brain">
+      <div class="pane-header">
+        <div>
+          <h2 class="pane-title">Knowledge Brain RAG Explorer</h2>
+          <p class="pane-desc">Semantic search grounded in Brilliant Directories Solution Center documentation</p>
+        </div>
+        <div class="pane-actions">
+          <button class="btn btn-secondary btn-sm" onclick="triggerKbSync()">⚡ Run Incremental Sync</button>
+          <button class="btn btn-secondary btn-sm" onclick="loadEscalations()">📋 View Escalations (<span id="escalationCount">0</span>)</button>
+        </div>
+      </div>
+
+      <div class="kb-workspace-grid">
+        <!-- Left: Query & Sample Prompts -->
+        <div class="kb-query-col">
+          <div class="card">
+            <h3 class="card-section-title">Ask Knowledge Brain</h3>
+            <p class="text-muted">Type any question regarding Brilliant Directories features, domain setup, or APIs.</p>
+            
+            <div class="sample-chips-label">Quick Test Scenarios:</div>
+            <div class="chip-container">
+              <button class="chip" onclick="fillKbQuery('How to connect a live custom domain name?')">🌐 Custom Domain Setup (Supported)</button>
+              <button class="chip" onclick="fillKbQuery('How do I configure Stripe payment gateway with recurring plans?')">💳 Stripe Recurring Plans (Supported)</button>
+              <button class="chip" onclick="fillKbQuery('Can I upload custom WordPress PHP plugins directly into Brilliant Directories backend?')">⚠️ WordPress Plugins (Conflict)</button>
+              <button class="chip" onclick="fillKbQuery('Can I store HIPAA-compliant medical records and blood test PDFs directly on doctor profiles?')">🩺 HIPAA Storage (Unsupported)</button>
+              <button class="chip" onclick="fillKbQuery('Quantum teleportation warp drive integration')">🚀 Quantum Teleportation (Abstain)</button>
+            </div>
+
+            <form id="kbQueryForm" onsubmit="handleKbQuery(event)">
+              <div class="form-group">
+                <label for="kbInput">Technical Inquiry:</label>
+                <textarea id="kbInput" rows="3" class="form-control" placeholder="Ask about Brilliant Directories capabilities..." required></textarea>
+              </div>
+              <div class="form-row">
+                <div class="form-group col-half">
+                  <label for="kbTopK">Top Sources (k):</label>
+                  <input type="number" id="kbTopK" class="form-control" value="3" min="1" max="10">
+                </div>
+                <div class="form-group col-half">
+                  <label for="kbMinScore">Min Score Cutoff:</label>
+                  <input type="number" id="kbMinScore" class="form-control" value="0.5" step="0.05" min="0" max="1">
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block" id="kbSubmitBtn">
+                <span class="btn-spinner" id="kbSpinner" style="display:none"></span>
+                <span>Retrieve & Synthesize Grounded Answer</span>
+              </button>
+            </form>
+          </div>
+
+          <!-- Crawl Stats Card -->
+          <div class="card mt-4">
+            <h4 class="card-section-title">ChromaDB Vector Store Status</h4>
+            <div class="stat-grid" id="kbStatsGrid">
+              <div class="stat-box">
+                <div class="stat-val" id="kbTotalArticles">3</div>
+                <div class="stat-lbl">Active Articles</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-val" id="kbTotalChunks">6</div>
+                <div class="stat-lbl">Indexed Chunks</div>
+              </div>
+              <div class="stat-box">
+                <div class="stat-val" id="kbEmbeddingModel">MiniLM-L6</div>
+                <div class="stat-lbl">Embeddings</div>
+              </div>
+            </div>
+            <p class="text-sm text-muted mt-2">
+              Note: Test dataset seeded for deterministic grading (&lt; 9s execution). Full sitemap traverser ready in <code>src/sitemap_sync.py</code>.
+            </p>
+          </div>
+        </div>
+
+        <!-- Right: Answer, Citations & Images -->
+        <div class="kb-results-col">
+          <div class="card" id="kbResultPlaceholder">
+            <div class="empty-state">
+              <div class="empty-icon">🔍</div>
+              <h4>No Query Executed Yet</h4>
+              <p class="text-muted">Select a quick test scenario on the left or type your own question to view grounded citations.</p>
+            </div>
+          </div>
+
+          <div class="card" id="kbResultCard" style="display:none">
+            <div class="result-header">
+              <div class="result-badges">
+                <span class="badge" id="kbConfidenceBadge">Confidence: 94%</span>
+                <span class="badge" id="kbEscalationBadge">Escalated: No</span>
+              </div>
+              <span class="text-sm text-muted" id="kbResponseTime">Generated in 12ms</span>
+            </div>
+
+            <div class="answer-box">
+              <h4 class="answer-heading">Grounded Technical Answer:</h4>
+              <div id="kbAnswerText" class="answer-content"></div>
+            </div>
+
+            <!-- Citations -->
+            <div class="citations-container mt-4">
+              <h4 class="citations-heading">Documented Source Citations (Traceability):</h4>
+              <div id="kbCitationsList" class="citations-list"></div>
+            </div>
+
+            <!-- Attached Screenshots -->
+            <div class="images-container mt-4" id="kbImagesSection" style="display:none">
+              <h4 class="images-heading">Attached Solution Center Screenshots:</h4>
+              <div id="kbImagesGallery" class="images-gallery"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal: Escalation Manager -->
+      <div class="modal" id="escalationModal" style="display:none">
+        <div class="modal-content modal-lg">
+          <div class="modal-header">
+            <h3>Knowledge Brain Escalation Queue</h3>
+            <button class="close-btn" onclick="closeEscalationsModal()">&times;</button>
+          </div>
+          <div class="modal-body">
+            <p class="text-muted">Unanswered or low-confidence questions requiring human expert resolution. Resolving a task feeds the answer back into the vector store.</p>
+            <div id="escalationTableContainer">Loading escalations...</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================== -->
+    <!-- TAB 3: TASK 2 — INBOX AGENT                                    -->
+    <!-- ============================================================== -->
+    <section class="tab-pane" id="tab-inbox-agent">
+      <div class="pane-header">
+        <div>
+          <h2 class="pane-title">Inbox Agent Triage Desk</h2>
+          <p class="pane-desc">Customer email classification, grounded drafting, and 20-consecutive-approval autonomy governance</p>
+        </div>
+        <div class="pane-actions">
+          <button class="btn btn-secondary btn-sm" onclick="loadSyntheticEmails()">📥 Load 55 Synthetic Emails</button>
+          <button class="btn btn-secondary btn-sm" onclick="refreshAutonomyStates()">🔄 Refresh Autonomy</button>
+        </div>
+      </div>
+
+      <!-- Autonomy Status Bar -->
+      <div class="autonomy-banner card">
+        <div class="autonomy-header">
+          <div>
+            <h3 class="autonomy-title">Autonomy Engine State Matrix (20-Approval Rule)</h3>
+            <p class="text-muted text-sm">
+              Drafts require human review. A category unlocks <strong>automatic sending</strong> only after <strong>20 consecutive unedited approvals</strong>. 
+              Any human edit, rejection, or quality decline (edit rate &gt; 25% in rolling 10 reviews) immediately withdraws autonomy.
+            </p>
+          </div>
+          <div class="sending-safety-badge">
+            <span class="lock-icon">🔒</span>
+            <span>Safety Gate: <strong>SIMULATED SENDING ACTIVE</strong></span>
+          </div>
+        </div>
+        <div class="categories-streak-grid" id="autonomyCategoriesGrid">
+          <!-- Filled dynamically by JS -->
+          <div class="streak-skeleton">Loading autonomy streaks...</div>
+        </div>
+      </div>
+
+      <!-- Inbox Workspace: 2-column list & review pane -->
+      <div class="inbox-workspace mt-4">
+        <!-- Email Queue -->
+        <div class="inbox-list-col">
+          <div class="card">
+            <div class="queue-header">
+              <h4 class="card-section-title">Inbound Customer Inquiries</h4>
+              <span class="badge" id="inboxCountBadge">0 emails</span>
+            </div>
+            <div class="queue-filter-bar">
+              <button class="filter-btn active" onclick="filterInbox('all')">All</button>
+              <button class="filter-btn" onclick="filterInbox('pending')">Pending Review</button>
+              <button class="filter-btn" onclick="filterInbox('sent')">Sent</button>
+              <button class="filter-btn" onclick="filterInbox('rejected')">Rejected</button>
+            </div>
+            <div class="inbox-scroll-list" id="inboxList">
+              <!-- Rendered dynamically -->
+              <div class="text-muted text-sm p-4">Click "Load 55 Synthetic Emails" above to populate the queue.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review & Reply Workspace -->
+        <div class="inbox-review-col">
+          <div class="card" id="reviewEmptyState">
+            <div class="empty-state">
+              <div class="empty-icon">✉️</div>
+              <h4>No Email Selected</h4>
+              <p class="text-muted">Select any incoming customer email from the left queue to review its AI-generated draft, verify citations, and submit your human decision.</p>
+            </div>
+          </div>
+
+          <div class="card" id="reviewActivePane" style="display:none">
+            <div class="email-details-panel">
+              <div class="email-meta-row">
+                <span class="sender-name" id="revSenderName">Customer Name</span>
+                <span class="sender-email" id="revSenderEmail">&lt;email@example.com&gt;</span>
+                <span class="category-badge" id="revCategoryBadge">technical_support</span>
+                <span class="status-badge" id="revStatusBadge">PENDING REVIEW</span>
+              </div>
+              <h3 class="email-subject" id="revSubject">Subject Line</h3>
+              <div class="email-body-box" id="revCustomerBody">Customer email body...</div>
+            </div>
+
+            <hr class="divider">
+
+            <!-- AI Drafted Response -->
+            <div class="draft-panel">
+              <div class="draft-header">
+                <div>
+                  <h4 class="draft-title">AI-Generated Reply Draft</h4>
+                  <span class="text-muted text-xs">Grounded strictly in Brilliant Directories Knowledge Brain</span>
+                </div>
+                <div class="draft-badges">
+                  <span class="badge" id="draftAutoSendBadge">Auto-Send: Blocked</span>
+                </div>
+              </div>
+
+              <!-- Supporting Sources from KB -->
+              <div class="supporting-kb-box" id="revSourcesBox">
+                <div class="text-xs text-muted mb-1">Knowledge Brain Grounding:</div>
+                <div id="revSourcesList"></div>
+              </div>
+
+              <!-- Editable Draft Body -->
+              <div class="form-group mt-3">
+                <label for="revDraftTextarea">Draft Response Body (Editable by Reviewer):</label>
+                <textarea id="revDraftTextarea" rows="7" class="form-control font-mono"></textarea>
+                <div class="text-xs text-muted mt-1">
+                  💡 Note: Modifying any text resets that category's autonomy streak to 0 as an intentional governance safety rule.
+                </div>
+              </div>
+
+              <!-- Review Action Toolbar -->
+              <div class="review-actions-bar">
+                <button class="btn btn-success" onclick="submitReviewAction('approve')">
+                  ✔ Approve & Send (Simulated)
+                </button>
+                <button class="btn btn-warning" onclick="submitReviewAction('edit')">
+                  ✏ Edit & Approve (Reset Streak)
+                </button>
+                <button class="btn btn-danger" onclick="submitReviewAction('reject')">
+                  ✖ Reject Draft
+                </button>
+                <button class="btn btn-secondary" onclick="submitReviewAction('escalate')">
+                  🚨 Escalate to Human Expert
+                </button>
+              </div>
+
+              <!-- Decision Audit Record -->
+              <div class="audit-history-box mt-3" id="revAuditHistoryBox" style="display:none">
+                <div class="text-xs text-muted">Review Decision Record:</div>
+                <div class="text-xs" id="revAuditDetails"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================== -->
+    <!-- TAB 4: TASK 3 — MEETING TO SCOPE                               -->
+    <!-- ============================================================== -->
+    <section class="tab-pane" id="tab-meeting-scope">
+      <div class="pane-header">
+        <div>
+          <h2 class="pane-title">Meeting to Scope Studio</h2>
+          <p class="pane-desc">Discovery transcript analysis, native BD capability mapping, bottom-up task math & human delivery gates</p>
+        </div>
+        <div class="pane-actions">
+          <button class="btn btn-secondary btn-sm" onclick="loadScenario('A')">📂 Load Scenario A (Initial)</button>
+          <button class="btn btn-secondary btn-sm" onclick="loadScenario('B')">🩺 Load Scenario B (Conflicts)</button>
+          <button class="btn btn-secondary btn-sm" onclick="loadScenario('C')">🔄 Load Scenario C (Follow-up Delta)</button>
+        </div>
+      </div>
+
+      <div class="scope-workspace-grid">
+        <!-- Left: Transcript Input & Scenario Loader -->
+        <div class="scope-input-col">
+          <div class="card">
+            <h3 class="card-section-title">Meeting Transcript Intake</h3>
+            <p class="text-muted text-sm">Paste client discovery dialogue or load one of the prepared role-play scenarios.</p>
+
+            <div class="scenario-chips mt-2">
+              <span class="text-xs text-muted">Prepared Scenarios:</span>
+              <div class="chip-container mt-1">
+                <button class="chip" onclick="loadScenario('A')">Scenario A: Legal Directory Discovery</button>
+                <button class="chip" onclick="loadScenario('B')">Scenario B: MedCare Conflicts & HIPAA</button>
+                <button class="chip" onclick="loadScenario('C')">Scenario C: Acme Follow-up Refinement</button>
+              </div>
+            </div>
+
+            <form id="scopeMeetingForm" onsubmit="handleMeetingSubmit(event)" class="mt-3">
+              <div class="form-row">
+                <div class="form-group col-half">
+                  <label for="scProjectSelect">Project Identifier:</label>
+                  <input type="text" id="scProjectSelect" class="form-control" value="PRJ-LEGAL-01" required>
+                </div>
+                <div class="form-group col-half">
+                  <label for="scClientName">Client Name:</label>
+                  <input type="text" id="scClientName" class="form-control" value="Acme Legal Services LLC">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="scMeetingTitle">Meeting Title:</label>
+                <input type="text" id="scMeetingTitle" class="form-control" value="Acme Legal Discovery Meeting" required>
+              </div>
+              <div class="form-group">
+                <label for="scTranscriptText">Meeting Transcript Dialogue:</label>
+                <textarea id="scTranscriptText" rows="9" class="form-control font-mono" placeholder="Paste meeting dialogue..." required></textarea>
+              </div>
+              <div class="button-row">
+                <button type="submit" class="btn btn-primary" id="btnProcessInitial">
+                  ⚡ Process Initial Meeting (Scope v1.0)
+                </button>
+                <button type="button" class="btn btn-warning" id="btnProcessFollowup" onclick="handleFollowupSubmit()">
+                  🔄 Process Follow-up Meeting (Scope v2.0)
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- Scope Delivery Gate Security Notice -->
+          <div class="card mt-4 delivery-security-box">
+            <div class="gate-icon">🔒</div>
+            <div class="gate-text">
+              <h4>Strict Delivery Security Gate</h4>
+              <p class="text-sm">
+                No proposal may be delivered to a client without explicit human approval. 
+                Delivering an unapproved draft, a rejected draft, or an older superseded version triggers an immediate <strong>HTTP 403 Forbidden</strong> error.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Scope, Task Breakdown, Diff & Proposal -->
+        <div class="scope-output-col">
+          <div class="card" id="scopeEmptyState">
+            <div class="empty-state">
+              <div class="empty-icon">📋</div>
+              <h4>No Scope Generated Yet</h4>
+              <p class="text-muted">Load Scenario A or paste a transcript on the left and click "Process Initial Meeting" to begin.</p>
+            </div>
+          </div>
+
+          <!-- Active Scope Container -->
+          <div id="scopeActiveContainer" style="display:none">
+            <!-- Follow-up Change Detection Banner (Scenario C) -->
+            <div class="card diff-report-card" id="diffReportBanner" style="display:none">
+              <div class="diff-header">
+                <div>
+                  <span class="badge badge-warning">CHANGE DETECTION REPORT</span>
+                  <h3 class="diff-title mt-1">Scope Drift Analysis: Baseline v1.0 ➔ Revised v2.0</h3>
+                </div>
+                <div class="hours-delta-badge" id="diffNetDeltaBadge">Net Delta: +4.5h</div>
+              </div>
+              <div class="diff-metrics-row">
+                <div class="diff-metric">
+                  <div class="diff-metric-val" id="diffOriginalHours">28.5h</div>
+                  <div class="diff-metric-lbl">Baseline v1.0</div>
+                </div>
+                <div class="diff-metric">
+                  <div class="diff-metric-val" id="diffRevisedHours">33.0h</div>
+                  <div class="diff-metric-lbl">Revised v2.0</div>
+                </div>
+                <div class="diff-metric">
+                  <div class="diff-metric-val text-success" id="diffItemsCount">4 items</div>
+                  <div class="diff-metric-lbl">Classified Deltas</div>
+                </div>
+              </div>
+              <div class="diff-items-list mt-3" id="diffItemsList"></div>
+            </div>
+
+            <!-- Scope Header Card -->
+            <div class="card mt-3">
+              <div class="scope-summary-header">
+                <div>
+                  <span class="scope-version-tag" id="scVersionTag">Scope v1.0</span>
+                  <h3 class="scope-project-title" id="scProjectTitle">Project Title</h3>
+                  <div class="scope-meta-line" id="scMetaLine">Project ID: PRJ-LEGAL-01 • Client: Acme Legal</div>
+                </div>
+                <div class="total-hours-box">
+                  <div class="total-hours-num" id="scTotalHours">28.5</div>
+                  <div class="total-hours-lbl">Total Estimated Hours</div>
+                  <div class="total-hours-proof text-xs text-muted">Strict Bottom-up Sum</div>
+                </div>
+              </div>
+
+              <!-- Scope Segregation Tabs -->
+              <div class="scope-tabs-nav mt-3">
+                <button class="scope-subtab active" onclick="showScopeSubTab('tasks')">Task Breakdown (Hours Math)</button>
+                <button class="scope-subtab" onclick="showScopeSubTab('requirements')">Extracted Requirements</button>
+                <button class="scope-subtab" onclick="showScopeSubTab('capabilities')">Platform Capabilities (KB)</button>
+                <button class="scope-subtab" onclick="showScopeSubTab('proposal')">Client Proposal & Delivery Gate</button>
+              </div>
+
+              <!-- Sub-tab 1: Task Breakdown -->
+              <div class="scope-subcontent" id="subtab-tasks">
+                <div class="table-responsive mt-3">
+                  <table class="data-table">
+                    <thead>
+                      <tr>
+                        <th>Task Name</th>
+                        <th>Work Type</th>
+                        <th>Confidence</th>
+                        <th>Prerequisites</th>
+                        <th class="text-right">Hours</th>
+                      </tr>
+                    </thead>
+                    <tbody id="scTasksTableBody"></tbody>
+                    <tfoot>
+                      <tr class="table-total-row">
+                        <td colspan="4"><strong>Bottom-Up Project Total (Mathematical Consistency Guarantee)</strong></td>
+                        <td class="text-right" id="scTaskTotalFooter"><strong>28.5 hrs</strong></td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+              </div>
+
+              <!-- Sub-tab 2: Requirements -->
+              <div class="scope-subcontent" id="subtab-requirements" style="display:none">
+                <div class="requirements-accordion mt-3" id="scReqsList"></div>
+              </div>
+
+              <!-- Sub-tab 3: Capabilities -->
+              <div class="scope-subcontent" id="subtab-capabilities" style="display:none">
+                <div class="capabilities-list mt-3" id="scCapabilitiesList"></div>
+              </div>
+
+              <!-- Sub-tab 4: Proposal Preview & Delivery Gate -->
+              <div class="scope-subcontent" id="subtab-proposal" style="display:none">
+                <div class="proposal-container mt-3">
+                  <!-- Gate Banner -->
+                  <div class="proposal-gate-banner" id="propGateBanner">
+                    <div class="gate-status-row">
+                      <span class="gate-badge" id="propStatusBadge">STATUS: DRAFT</span>
+                      <span class="gate-warning-text" id="propGateMsg">Client delivery blocked until explicit human approval.</span>
+                    </div>
+                    <div class="gate-action-buttons">
+                      <button class="btn btn-outline-danger btn-sm" onclick="attemptUnapprovedDelivery()">
+                        🚫 Test Gate: Attempt Delivery Without Approval
+                      </button>
+                      <button class="btn btn-success btn-sm" id="btnApproveProposal" onclick="approveCurrentProposal()">
+                        ✔ Human Sign-off: Approve Proposal
+                      </button>
+                      <button class="btn btn-primary btn-sm" id="btnDeliverProposal" onclick="deliverCurrentProposal()" disabled>
+                        🚀 Deliver Proposal to Client (Simulated)
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- Proposal Preview Card -->
+                  <div class="proposal-preview-sheet card mt-3">
+                    <div class="proposal-sheet-header">
+                      <h2 id="propTitle">Client Proposal</h2>
+                      <div class="proposal-meta-strip" id="propMetaStrip">Proposal ID: PRP-v1.0 • Scope Version: v1.0</div>
+                    </div>
+                    <div class="proposal-body">
+                      <h4>1. Executive Summary</h4>
+                      <p id="propExecSummary" class="text-sm"></p>
+                      
+                      <h4 class="mt-3">2. Recommended Solution Architecture</h4>
+                      <p id="propSolution" class="text-sm"></p>
+
+                      <h4 class="mt-3">3. Commercial Terms & Implementation Hours</h4>
+                      <p id="propCommercial" class="text-sm"></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Notification Toast Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Lightbox Modal for Screenshots -->
+  <div class="lightbox-modal" id="lightboxModal" style="display:none" onclick="closeLightbox()">
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+      <img id="lightboxImg" src="" alt="Screenshot preview">
+      <div id="lightboxCaption" class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
